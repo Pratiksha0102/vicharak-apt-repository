@@ -1,0 +1,9 @@
+%echo Generating an vicharak PGP key
+Key-Type: RSA
+Key-Length: 4096
+Name-Real: vicharak
+Name-Email: utsavbalar1231@gmail.com
+Expire-Date: 0
+%no-ask-passphrase
+%no-protection
+%commit
