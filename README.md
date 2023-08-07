@@ -9,19 +9,19 @@ To install Vicharak APT onto your ARM64 Debian/Ubuntu distro, run the following
 commands:
 
 ```bash
-wget -qO - https://apt.vicharak.in/debian/pgp-key.public | sudo apt-key add -
+wget -qO - https://apt.vicharak.in/pgp-key.public | sudo apt-key add -
 ```
 
 or
 
 ```bash
-curl -sSL https://apt.vicharak.in/debian/pgp-key.public | sudo apt-key add -
+curl -sSL https://apt.vicharak.in/pgp-key.public | sudo apt-key add -
 ```
 
 Then add the following line to your `/etc/apt/sources.list` file:
 
 ```text
-deb https://apt.vicharak.in/debian/ stable main
+deb https://apt.vicharak.in stable main
 ```
 
 Then run the following commands:
