@@ -5,7 +5,7 @@ do_hash() {
 	HASH_NAME=$1
 	HASH_CMD=$2
 	echo "${HASH_NAME}:"
-	find . -type f | cut -c3- | sort | while read -r f; do
+	find . -type f -not -path '*/\.git*' | cut -c3- | sort | while read -r f; do
 		if [ "$f" = "Release" ]; then
 			continue
 		fi
