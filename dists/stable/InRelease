@@ -9,69 +9,78 @@ Version: 1.0
 Architectures: arm64
 Components: main
 Description: Vicharak Debian/Ubuntu apt software repository
-Date: Mon, 07 Aug 2023 06:12:19 +0000
+Date: Tue, 08 Aug 2023 10:08:37 +0000
 MD5Sum:
+ 0674132c6f1f9903aaa6da95db646ee1 1070 LICENSE
+ 2d14698e368f8781c0926bfae7ada7cf 1179 README.md
  ef0d1bb5651bb6c2b50184ebdf1ba878 182 create_pgp_key.batch
- 346d459888d0fd1bd91bb554b287bf5d 17774 dists/stable/InRelease
- 8297407db6ac0518dd0bf6228a92d853 361 dists/stable/Release
- 22fcbf319c283611b21f61330c8871f5 870 dists/stable/Release.gpg
- 0cf8df7e22119bb88493a92ecf40065f 4262 dists/stable/main/binary-arm64/Packages
- a9bfe33d6d0cd0622d495a2809eaaf72 1683 dists/stable/main/binary-arm64/Packages.gz
+ 35a516dd82e55e800c0924fc7366c84e 5287 dists/stable/InRelease
+ 8dd72741506dd2baf8a0960508b00971 456 dists/stable/Release
+ 1491dcefe91de47d18c9eb45f27cdc43 870 dists/stable/Release.gpg
+ f298ba05ff4fc66c628c29f2a49b685a 4936 dists/stable/main/binary-arm64/Packages
+ 3d3f511fc05bab373825fc3959e1a27d 2039 dists/stable/main/binary-arm64/Packages.gz
  01d4a36c5f4fe66e339c67a65fa3d7f9 594 generate_release.sh
  953ff83c672c44029bad8c1fd43f4a4f 1648 pgp-key.public
- 74409dc4227969172babd32b442ba278 8823008 pool/main/linux-headers-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
- 15ef5a901c3331223d0511da89ff5da1 11360544 pool/main/linux-image-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
- 146c7a87d51872b8810b20f19be263c4 1081872 pool/main/linux-libc-dev_20230728-rk3399-vaaman_arm64.deb
- 93565f728e9ac794314478e6e8c30018 664424 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
- a286e966247b6f43d76f6888fd4c6581 20284 pool/main/vicharak-config_0.0.4_all.deb
+ 71d2fcf69561a74f4aaa89396649a745 8828572 pool/main/linux-headers-4.19.232-vaaman_20230807-vaaman_arm64.deb
+ f312fa685fc80adb1bd5dfdf7e212e55 11357428 pool/main/linux-image-4.19.232-vaaman_20230807-vaaman_arm64.deb
+ 514267d429e21748fce6a1050e90bf9d 1081868 pool/main/linux-libc-dev_20230807-vaaman_arm64.deb
+ 44a883ee31b42d5124ae17f71be4aad3 10140 pool/main/u-boot-menu_4.2.2_all.deb
+ 590a64a6e37ca23564a3f5c7b0a7c53e 664152 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
+ d95e293a4b012eb48db66532b00e3006 20188 pool/main/vicharak-config_0.0.4_all.deb
  80e87dfd31a67403fe296f99a5556742 185984 pool/main/vicharak-firmware_0.1.1_all.deb
  c7451933314bdace54fab27825d3654a 795 update_apt_repo.sh
 SHA1:
+ 6409453d864f67523f4e337e1db0d4f31889bc1b 1070 LICENSE
+ 20925136779391e88c95e430d0bc43592ab4d19a 1179 README.md
  5a81be15d5a04f8786d51fdd12d0033c84bcad58 182 create_pgp_key.batch
- 88d358a982a20b62cc75a63de5a12be734c59e19 17774 dists/stable/InRelease
- d4d656c9e986dd56815085607a35af955f67a443 1554 dists/stable/Release
- 94ddb4566d9150d99ae02012f28cd85181bb0b85 870 dists/stable/Release.gpg
- 0e81ca365f9fc20bf814b7b529c02f3e7e4de3a4 4262 dists/stable/main/binary-arm64/Packages
- 785d531e6296bccf575f90fbc7b20b11a9d21ae3 1683 dists/stable/main/binary-arm64/Packages.gz
+ 7748e49d4b1da65640d35c5323e2b85346d010e9 5287 dists/stable/InRelease
+ 4fb56caafdda54eba92e311f2e5746d57303bf08 1801 dists/stable/Release
+ 8b29eb8f075d14c9537bf66caf430e0dd404e39f 870 dists/stable/Release.gpg
+ 2a6400f3ab2a3e97a0cd32b5f983a54578583f7d 4936 dists/stable/main/binary-arm64/Packages
+ 2d402f9970610cfa0601360cfb172a5b5f946f40 2039 dists/stable/main/binary-arm64/Packages.gz
  07f24baea62080bce3cc8207232db8aa59e2dd09 594 generate_release.sh
  8f293246053da3120e84e4a73abca2e077438013 1648 pgp-key.public
- a89381fa4a6ff9e47eb9a0ca790e5dbca764b97f 8823008 pool/main/linux-headers-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
- 2c73e742d741bf576b8ce0ca655c54e099886091 11360544 pool/main/linux-image-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
- 74fddbbf21d549da2ecb6f618f4b92093cc1e32a 1081872 pool/main/linux-libc-dev_20230728-rk3399-vaaman_arm64.deb
- a772e75acef8b0ee87a083d8099b718af3ab0b88 664424 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
- 16d2d29a5d187751e36f6280613447c63a15e67b 20284 pool/main/vicharak-config_0.0.4_all.deb
+ f8024214d1614490d6508aaf2f657da93103a0f9 8828572 pool/main/linux-headers-4.19.232-vaaman_20230807-vaaman_arm64.deb
+ 89708f35727b2e6d0ef577fba98cac7a7efe8ce3 11357428 pool/main/linux-image-4.19.232-vaaman_20230807-vaaman_arm64.deb
+ 2877c98e55cd2304a12fdcf6d654903c51c24d97 1081868 pool/main/linux-libc-dev_20230807-vaaman_arm64.deb
+ 8efd934429864811017e66d4585284c7c3dd5f20 10140 pool/main/u-boot-menu_4.2.2_all.deb
+ 229c306e5c9f1642a6dd7ecab51ecb966fb43231 664152 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
+ 4af5343186d8aa4eb5f7f23bf97eea98ac402afe 20188 pool/main/vicharak-config_0.0.4_all.deb
  48a3c5a47ec5b7a8e36ee36e3f7adec666ce9552 185984 pool/main/vicharak-firmware_0.1.1_all.deb
  91eb52b0e2f1da598daae008d236edb52ab530cc 795 update_apt_repo.sh
 SHA256:
+ 4e290c1c2192e1f53a2e1f0dde109914e529a3aa1519f502dc657e76eeeaaf9b 1070 LICENSE
+ 6d9dfb7d9ef37424394db3ffa6bb15b15c1e0aecd58835e4482e0237ae517671 1179 README.md
  befffeb7e471f4bdf3748c76012e29db0016a98cdcbea79eaa3e86031a912795 182 create_pgp_key.batch
- af1c5444ab35a9def7dcc5387a1c2c0187047519bc4f9063f8083035f88d99c6 17774 dists/stable/InRelease
- 92621d6c30c02987b8b6b53ae5a003e92874b3de462952cbf1c77bde7da250b2 2902 dists/stable/Release
- 134b670d7e74f05498598f8a36e291f7dc538dd0c9c784b3b7758d84568eb97f 870 dists/stable/Release.gpg
- 1ace413285b63b72b3d14331ffe149718688fe12d52256af1af8916a54d35b03 4262 dists/stable/main/binary-arm64/Packages
- 5eae741ae1351866eec1b5a5bdcca6ba9940140e7ae4917ce07ddcd1c9b47719 1683 dists/stable/main/binary-arm64/Packages.gz
+ e21a0fcb02acf8fefa77e77efdf90d13435f38d9dd81deab03dec3a41db15d1d 5287 dists/stable/InRelease
+ f9fc630efe3c9f7e948c21cf4279fb51eec77492a3ebdc77bd585216da3322c7 3357 dists/stable/Release
+ cc369a8be5e5974472514654f6c4ccbd8300e2c7bb1d18e8fe7ea3369bb1b41c 870 dists/stable/Release.gpg
+ 01bbe88e7054cd4951ce231246dbdb131c4cd249e3f3bfd7c53f3112b91de729 4936 dists/stable/main/binary-arm64/Packages
+ 69e24edb16f34b314975d48d14f56dd3f2a963f253c0d3c8293f456438f91248 2039 dists/stable/main/binary-arm64/Packages.gz
  2fe240629b350e089ca55cffc4e2fe8faa9c172c577cfbe01e131f15a343ee34 594 generate_release.sh
  c8082019a2a9a51717ffb4d65463bdb9f09ed0363f728a87f31fa3db93ab8fb4 1648 pgp-key.public
- c03e3011c62f8c75649fb75e99416eb742db8a41bd4963c102349cc691211575 8823008 pool/main/linux-headers-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
- a860a6387c17459587718ddf8b24620676b423d79688853976616212208685c2 11360544 pool/main/linux-image-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
- 6042936e60bb19f4af0b1ba951be81b3c7e81c55a0dd80908247ac37c3e42026 1081872 pool/main/linux-libc-dev_20230728-rk3399-vaaman_arm64.deb
- 300bb6f98873cf41f5fc6b3e981129889f43d56491165e67b9ffe9a078a2e345 664424 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
- 3529f1cf6536f54c0a7fab77f8260168adeb215a9b6632d7a21666310809b273 20284 pool/main/vicharak-config_0.0.4_all.deb
+ b430e9ea9b474590c1821db7133f4d8a1a5d847c0e6c44761fca67a6d1283c0c 8828572 pool/main/linux-headers-4.19.232-vaaman_20230807-vaaman_arm64.deb
+ d92bf860ebc5e1e1efc5bdb08ede5dc40e694e246269476deac1eade3a27d640 11357428 pool/main/linux-image-4.19.232-vaaman_20230807-vaaman_arm64.deb
+ 73038edf93b1604f06bccbd833a6aef471d002f14b30ddb9f4701c873dcb53a3 1081868 pool/main/linux-libc-dev_20230807-vaaman_arm64.deb
+ 20ce684ae3c41d52f2bdd95a8af75efdb9d468fcb2b9e7d672a438b9fa74024c 10140 pool/main/u-boot-menu_4.2.2_all.deb
+ 6c9edb1e8a61c0d2f8cb90d8276b26754810a356d4b57167f2e4478f2fbe4485 664152 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
+ add549d0fc85e2441fc8ffb8829c88968e8d0f313647624f1030cb7e74426bd4 20188 pool/main/vicharak-config_0.0.4_all.deb
  92f1d897969a8e2b68c1f60c97b66314e4e5b390b0c2fa902e43719dc97312ba 185984 pool/main/vicharak-firmware_0.1.1_all.deb
  f951ff59241242795ffc0f627e04fbdab8ee8b8775b07e39c5d2f21c080bf7bd 795 update_apt_repo.sh
 -----BEGIN PGP SIGNATURE-----
 
-iQJNBAEBCgA3FiEE9enjg2LfH9Oqr9JG7F2frQH4rWAFAmTQi0QZHHV0c2F2YmFs
-YXIxMjMxQGdtYWlsLmNvbQAKCRDsXZ+tAfitYMQVD/9ijaE2MVe9fI+TRy3ahIW2
-oQxmkxAe+UEvzRjFXijmjVGYvFPxnTTLY8SeqmdPKDhOfA9LYoFooVg7hZ6gwBj6
-oEnHfza2G6Kscs870DKaeK5g/pUvZiVuS6zRdWMKfJIJwnW1bWtNhyAurbAqAOMd
-YVh6AxAGPhC+45+NIWywLzslH5SusKtCdLVBGZwRouHiofh9t96c4HqaNsSCLbzb
-6RRH3kKzIfrJUpnC8wjqggCKzWh+em7ieiVKml0ebkVQedh6jSZ49kI5kBKSP1WN
-Kas3xOn32xDV+Fad5Iaqd4VdvDs0wnj6TXsjlDz3lSDBB95AieyICgtnRNW/loj1
-U1iXYrtUP1ydMXEOe9w46k6ar3+A0cv6OAPqHZbecmvW/0zJX66ei1WFZ4qKFZIU
-7vn92s8eVbGe/xcVukc3VCR/dpxZ6NzzRJO5RwvJGlL5i/mAG7ONsxx3a0/wbMFc
-bqTEtnHZI6z2dU8G/MrmHt8UAhI3R8TvxYITRiFotrt9qlw5AeOeeGMQP6pirU69
-SNpkSZ7ef77H79SGED1ZQVTznGOCYvmGBBqjjmSew5qJKZgB9WjFqgqobNzFNv+O
-5w5mNMMLKP8RPOdmFOBPtS1Thivjs8riPBbnu6ziQpvNw0v5kMI8wFPC7XQ8YNS/
-Fnl0K0B7qCdoRK4ZUAoywg==
-=nyf3
+iQJNBAEBCgA3FiEE9enjg2LfH9Oqr9JG7F2frQH4rWAFAmTSFCYZHHV0c2F2YmFs
+YXIxMjMxQGdtYWlsLmNvbQAKCRDsXZ+tAfitYAx5D/4yfOKovZiE9jvkfu9WFk4d
++Owz7jvNLIxMfln7gd+JR0lRuDw68P/HwOEbciolqW39Ou2ILblWQtaq4w5X2jOc
+XoNfTDtVlPoDNDLRZDaHtfV9wNFBhPnc1AqTfmNbNSHcCrvKdEBLwqI768l3wIdg
+pB3LKnG4V7dkXM1eP2HqGCaHvrJy7PjBVpkMQQ2dz/H8APvLudjuyZljFjxWBQ40
+udy+2PbGtOMQaACFJsli7HrHF0YTGaqdvQwuOWUI3JnyNMRRpILjRyJ4w0Btoe2c
+Y9843TfNm8LIRNFGVHAw+jkWWDXvq7DMk41uzaTlpD07hee605Jxxepqe9tMjNjb
+foAuD2Hrm8jaNXsMeprRFaoC5aJ5Vtcsy9yaFodXDkCV45MH8bYZ2dKhsdbxKDmK
+KFJvMIatYWR/K9eF/67llB3geteNSARdPmYaFLWANszI6DZ934DL2EKr9rn8gEN9
+jgljsSmAVsST3MfH8Z1dWlZXUo2BmF3NAQFgV6Lb6Vg6u34/20CrGpbXahdwOyuW
+3gFdbNRN9AwjDoY/VSIEU0szGqJ615+em6hFSw6FiiUvewyM4aWxpoF6wvFijOuZ
+br/IwlMeXyHAhzdE5JbuJtr7AQg8GxEDbyHZPPiF240Dg4do9gwVIVrI2RUU3JMj
+vHI94XpaLlVd8k2BRuWoFA==
+=bP50
 -----END PGP SIGNATURE-----

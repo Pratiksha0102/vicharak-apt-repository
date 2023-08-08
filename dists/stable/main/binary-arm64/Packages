@@ -1,52 +1,52 @@
-Package: linux-headers-4.19.232-rk3399-vaaman
-Source: linux-4.19.232-rk3399-vaaman
-Version: 20230728-rk3399-vaaman
+Package: linux-headers-4.19.232-vaaman
+Source: linux-4.19.232-vaaman
+Version: 20230807-vaaman
 Architecture: arm64
-Maintainer: vicharak <vicharak@galactos-bubuntu>
-Installed-Size: 57772
-Filename: pool/main/linux-headers-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
-Size: 8823008
-MD5sum: 74409dc4227969172babd32b442ba278
-SHA1: a89381fa4a6ff9e47eb9a0ca790e5dbca764b97f
-SHA256: c03e3011c62f8c75649fb75e99416eb742db8a41bd4963c102349cc691211575
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 57838
+Filename: pool/main/linux-headers-4.19.232-vaaman_20230807-vaaman_arm64.deb
+Size: 8828572
+MD5sum: 71d2fcf69561a74f4aaa89396649a745
+SHA1: f8024214d1614490d6508aaf2f657da93103a0f9
+SHA256: b430e9ea9b474590c1821db7133f4d8a1a5d847c0e6c44761fca67a6d1283c0c
 Section: kernel
 Priority: optional
 Homepage: http://www.kernel.org/
-Description: Linux kernel headers for 4.19.232-rk3399-vaaman on arm64
- This package provides kernel header files for 4.19.232-rk3399-vaaman on arm64
+Description: Linux kernel headers for 4.19.232-vaaman on arm64
+ This package provides kernel header files for 4.19.232-vaaman on arm64
  .
  This is useful for people who need to build external modules
 
-Package: linux-image-4.19.232-rk3399-vaaman
-Source: linux-4.19.232-rk3399-vaaman
-Version: 20230728-rk3399-vaaman
+Package: linux-image-4.19.232-vaaman
+Source: linux-4.19.232-vaaman
+Version: 20230807-vaaman
 Architecture: arm64
-Maintainer: vicharak <vicharak@galactos-bubuntu>
-Installed-Size: 47710
-Filename: pool/main/linux-image-4.19.232-rk3399-vaaman_20230728-rk3399-vaaman_arm64.deb
-Size: 11360544
-MD5sum: 15ef5a901c3331223d0511da89ff5da1
-SHA1: 2c73e742d741bf576b8ce0ca655c54e099886091
-SHA256: a860a6387c17459587718ddf8b24620676b423d79688853976616212208685c2
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 47704
+Filename: pool/main/linux-image-4.19.232-vaaman_20230807-vaaman_arm64.deb
+Size: 11357428
+MD5sum: f312fa685fc80adb1bd5dfdf7e212e55
+SHA1: 89708f35727b2e6d0ef577fba98cac7a7efe8ce3
+SHA256: d92bf860ebc5e1e1efc5bdb08ede5dc40e694e246269476deac1eade3a27d640
 Section: kernel
 Priority: optional
 Homepage: http://www.kernel.org/
-Description: Linux kernel, version 4.19.232-rk3399-vaaman
+Description: Linux kernel, version 4.19.232-vaaman
  This package contains the Linux kernel, modules and corresponding other
- files, version: 4.19.232-rk3399-vaaman.
+ files, version: 4.19.232-vaaman.
 
 Package: linux-libc-dev
-Source: linux-4.19.232-rk3399-vaaman
-Version: 20230728-rk3399-vaaman
+Source: linux-4.19.232-vaaman
+Version: 20230807-vaaman
 Architecture: arm64
-Maintainer: vicharak <vicharak@galactos-bubuntu>
+Maintainer: vicharak <vicharak@galactos>
 Installed-Size: 5746
 Provides: linux-kernel-headers
-Filename: pool/main/linux-libc-dev_20230728-rk3399-vaaman_arm64.deb
-Size: 1081872
-MD5sum: 146c7a87d51872b8810b20f19be263c4
-SHA1: 74fddbbf21d549da2ecb6f618f4b92093cc1e32a
-SHA256: 6042936e60bb19f4af0b1ba951be81b3c7e81c55a0dd80908247ac37c3e42026
+Filename: pool/main/linux-libc-dev_20230807-vaaman_arm64.deb
+Size: 1081868
+MD5sum: 514267d429e21748fce6a1050e90bf9d
+SHA1: 2877c98e55cd2304a12fdcf6d654903c51c24d97
+SHA256: 73038edf93b1604f06bccbd833a6aef471d002f14b30ddb9f4701c873dcb53a3
 Section: devel
 Priority: optional
 Homepage: http://www.kernel.org/
@@ -54,19 +54,43 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: u-boot-menu
+Version: 4.2.2
+Architecture: all
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Installed-Size: 40
+Depends: linux-base
+Suggests: flash-kernel
+Filename: pool/main/u-boot-menu_4.2.2_all.deb
+Size: 10140
+MD5sum: 44a883ee31b42d5124ae17f71be4aad3
+SHA1: 8efd934429864811017e66d4585284c7c3dd5f20
+SHA256: 20ce684ae3c41d52f2bdd95a8af75efdb9d468fcb2b9e7d672a438b9fa74024c
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://github.com/suihkulokki/u-boot-menu
+Description: u-boot menu update
+ Automatically create extlinux-style boot menu for u-boot. Boot menu
+ entries are automatically created for every kernel package when they are
+ installed.
+ .
+ When /boot is on a separate partition, the package flash-kernel may help
+ ensure that device-tree (dtb) files are made available to u-boot.
+
 Package: u-boot-rk3399-vaaman
 Version: 22072023
 Architecture: arm64
 Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
-Installed-Size: 8441
+Installed-Size: 8440
 Conflicts: u-boot-rk3399-vaaman
 Replaces: u-boot-rk3399-vaaman
 Provides: u-boot-rk3399-vaaman
 Filename: pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
-Size: 664424
-MD5sum: 93565f728e9ac794314478e6e8c30018
-SHA1: a772e75acef8b0ee87a083d8099b718af3ab0b88
-SHA256: 300bb6f98873cf41f5fc6b3e981129889f43d56491165e67b9ffe9a078a2e345
+Size: 664152
+MD5sum: 590a64a6e37ca23564a3f5c7b0a7c53e
+SHA1: 229c306e5c9f1642a6dd7ecab51ecb966fb43231
+SHA256: 6c9edb1e8a61c0d2f8cb90d8276b26754810a356d4b57167f2e4478f2fbe4485
 Section: admin
 Priority: optional
 Description: A boot loader for the Vicharak Vaaman board.
@@ -83,10 +107,10 @@ Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
 Installed-Size: 136
 Depends: device-tree-compiler, gdisk, parted, whiptail
 Filename: pool/main/vicharak-config_0.0.4_all.deb
-Size: 20284
-MD5sum: a286e966247b6f43d76f6888fd4c6581
-SHA1: 16d2d29a5d187751e36f6280613447c63a15e67b
-SHA256: 3529f1cf6536f54c0a7fab77f8260168adeb215a9b6632d7a21666310809b273
+Size: 20188
+MD5sum: d95e293a4b012eb48db66532b00e3006
+SHA1: 4af5343186d8aa4eb5f7f23bf97eea98ac402afe
+SHA256: add549d0fc85e2441fc8ffb8829c88968e8d0f313647624f1030cb7e74426bd4
 Section: admin
 Priority: standard
 Description: Vicharak system setup utility
