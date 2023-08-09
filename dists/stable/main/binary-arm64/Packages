@@ -1,14 +1,14 @@
 Package: linux-headers-4.19.232-vaaman
 Source: linux-4.19.232-vaaman
-Version: 20230807-vaaman
+Version: 20230809-vaaman
 Architecture: arm64
 Maintainer: vicharak <vicharak@galactos>
 Installed-Size: 57838
-Filename: pool/main/linux-headers-4.19.232-vaaman_20230807-vaaman_arm64.deb
-Size: 8828572
-MD5sum: 71d2fcf69561a74f4aaa89396649a745
-SHA1: f8024214d1614490d6508aaf2f657da93103a0f9
-SHA256: b430e9ea9b474590c1821db7133f4d8a1a5d847c0e6c44761fca67a6d1283c0c
+Filename: pool/main/linux-headers-4.19.232-vaaman_20230809-vaaman_arm64.deb
+Size: 8828416
+MD5sum: 370ce34e4a25493b7ce45dd5f7d6e589
+SHA1: 3f7ca76473bd490e7618f8a725a3c72b1b5151a9
+SHA256: 94e71621f15e6b0c8c8ef74335c7e123bf40ae4afde1e990354946da9cdf8bb1
 Section: kernel
 Priority: optional
 Homepage: http://www.kernel.org/
@@ -19,15 +19,15 @@ Description: Linux kernel headers for 4.19.232-vaaman on arm64
 
 Package: linux-image-4.19.232-vaaman
 Source: linux-4.19.232-vaaman
-Version: 20230807-vaaman
+Version: 20230809-vaaman
 Architecture: arm64
 Maintainer: vicharak <vicharak@galactos>
-Installed-Size: 47704
-Filename: pool/main/linux-image-4.19.232-vaaman_20230807-vaaman_arm64.deb
-Size: 11357428
-MD5sum: f312fa685fc80adb1bd5dfdf7e212e55
-SHA1: 89708f35727b2e6d0ef577fba98cac7a7efe8ce3
-SHA256: d92bf860ebc5e1e1efc5bdb08ede5dc40e694e246269476deac1eade3a27d640
+Installed-Size: 47702
+Filename: pool/main/linux-image-4.19.232-vaaman_20230809-vaaman_arm64.deb
+Size: 11359816
+MD5sum: 3c80da8482a32ae3ded36b5dd5c0745f
+SHA1: f61103f1e33ab3b1d669ab8fadd1ca7beec3fb23
+SHA256: 7b47002f8a4060a372504a33f448c54ac5f3b1e1292912aa88ebad36a4208446
 Section: kernel
 Priority: optional
 Homepage: http://www.kernel.org/
@@ -37,16 +37,16 @@ Description: Linux kernel, version 4.19.232-vaaman
 
 Package: linux-libc-dev
 Source: linux-4.19.232-vaaman
-Version: 20230807-vaaman
+Version: 20230809-vaaman
 Architecture: arm64
 Maintainer: vicharak <vicharak@galactos>
 Installed-Size: 5746
 Provides: linux-kernel-headers
-Filename: pool/main/linux-libc-dev_20230807-vaaman_arm64.deb
-Size: 1081868
-MD5sum: 514267d429e21748fce6a1050e90bf9d
-SHA1: 2877c98e55cd2304a12fdcf6d654903c51c24d97
-SHA256: 73038edf93b1604f06bccbd833a6aef471d002f14b30ddb9f4701c873dcb53a3
+Filename: pool/main/linux-libc-dev_20230809-vaaman_arm64.deb
+Size: 1081864
+MD5sum: 492eaab490ed2b070d741f027bfeeb41
+SHA1: a85a971a03e8dce3f794e8d189588cca7b87fcc4
+SHA256: 42b2b77457684cae8fab411694fec1f816c8b54f49c4b6461ff315b35e37cd75
 Section: devel
 Priority: optional
 Homepage: http://www.kernel.org/
@@ -62,10 +62,10 @@ Installed-Size: 40
 Depends: linux-base
 Suggests: flash-kernel
 Filename: pool/main/u-boot-menu_4.2.2_all.deb
-Size: 10140
-MD5sum: 44a883ee31b42d5124ae17f71be4aad3
-SHA1: 8efd934429864811017e66d4585284c7c3dd5f20
-SHA256: 20ce684ae3c41d52f2bdd95a8af75efdb9d468fcb2b9e7d672a438b9fa74024c
+Size: 10240
+MD5sum: b6439486320dcbed1779aa1baa4cee7e
+SHA1: 44b796b7327180f6756ba911f87d88f0ae18d913
+SHA256: 8bec395997eb8c44a2582eb4dcf55a3a60d87b62109002eba6a450d0862fd361
 Section: admin
 Priority: optional
 Multi-Arch: foreign
@@ -87,10 +87,10 @@ Conflicts: u-boot-rk3399-vaaman
 Replaces: u-boot-rk3399-vaaman
 Provides: u-boot-rk3399-vaaman
 Filename: pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
-Size: 664152
-MD5sum: 590a64a6e37ca23564a3f5c7b0a7c53e
-SHA1: 229c306e5c9f1642a6dd7ecab51ecb966fb43231
-SHA256: 6c9edb1e8a61c0d2f8cb90d8276b26754810a356d4b57167f2e4478f2fbe4485
+Size: 665796
+MD5sum: 1c262d0e73d271c98c70eb9627d373fe
+SHA1: bbc306c0db63495c219ce51ca5f8b9dcc15cdbbb
+SHA256: c2560bcf5cfc28626f1f56f4d65b20678e60965cdbf99b99f2dc3610d7eac58c
 Section: admin
 Priority: optional
 Description: A boot loader for the Vicharak Vaaman board.
@@ -107,10 +107,10 @@ Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
 Installed-Size: 136
 Depends: device-tree-compiler, gdisk, parted, whiptail
 Filename: pool/main/vicharak-config_0.0.4_all.deb
-Size: 20188
-MD5sum: d95e293a4b012eb48db66532b00e3006
-SHA1: 4af5343186d8aa4eb5f7f23bf97eea98ac402afe
-SHA256: add549d0fc85e2441fc8ffb8829c88968e8d0f313647624f1030cb7e74426bd4
+Size: 20284
+MD5sum: 88a2024b4ebed13247dd6368207a3b3e
+SHA1: 0bf200a78e6dc67c2552a0fe3a51778f914f847b
+SHA256: b75a387a0141fde6f798669fafba8332fdf14107fcb589b758990d22affda76c
 Section: admin
 Priority: standard
 Description: Vicharak system setup utility
