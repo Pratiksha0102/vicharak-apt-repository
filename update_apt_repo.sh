@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# https://unix.stackexchange.com/questions/403485/how-to-generate-the-release-file-on-a-local-package-repository
+
 if [ ! -d pool ]; then
 	echo "pool directory not found!"
 	exit 1
@@ -10,16 +12,8 @@ if [ ! -d dists ]; then
 	exit 1
 fi
 
-dpkg-scanpackages --arch arm64 pool/ >dists/stable/main/binary-arm64/Packages
-
-cat dists/stable/main/binary-arm64/Packages | gzip -9 >dists/stable/main/binary-arm64/Packages.gz
-
-if [ ! -f generate_release.sh ]; then
-	echo "Release generate file not found!"
-	exit 1
-fi
-
-bash generate_release.sh >dists/stable/Release
+apt-ftparchive generate -c=aptftp.conf aptgenerate.conf
+apt-ftparchive release -c=aptftp.conf dists/stable >dists/stable/Release
 
 pgp_key=$(gpg --list-keys | grep vicharak | awk '{print $1}')
 if [ -z "$pgp_key" ]; then
@@ -27,5 +21,12 @@ if [ -z "$pgp_key" ]; then
 	exit 1
 fi
 
-cat dists/stable/Release | gpg --default-key vicharak -abs >dists/stable/Release.gpg
-cat dists/stable/Release | gpg --default-key vicharak -abs --clearsign >dists/stable/InRelease
+if [ -f dists/stable/Release.gpg ]; then
+	rm -f dists/stable/Release.gpg
+fi
+gpg --default-key vicharak -abo dists/stable/Release.gpg dists/stable/Release
+
+if [ -f dists/stable/InRelease ]; then
+	rm -f dists/stable/InRelease
+fi
+gpg --default-key vicharak --clear-sign --output dists/stable/InRelease dists/stable/Release

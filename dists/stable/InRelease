@@ -1,86 +1,64 @@
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-Origin: Vicharak APT Repository
-Label: Vichark-APT
-Suite: stable
-Codename: stable
-Version: 1.0
 Architectures: arm64
+Codename: stable
 Components: main
+Date: Thu, 10 Aug 2023 07:16:12 +0000
 Description: Vicharak Debian/Ubuntu apt software repository
-Date: Wed, 09 Aug 2023 06:40:08 +0000
+Label: Vichark-APT
+Origin: Vicharak APT Repository
+Suite: stable
 MD5Sum:
- 0674132c6f1f9903aaa6da95db646ee1 1070 LICENSE
- 2d14698e368f8781c0926bfae7ada7cf 1179 README.md
- ef0d1bb5651bb6c2b50184ebdf1ba878 182 create_pgp_key.batch
- b62a68a5c349b043134af835a25f8718 5815 dists/stable/InRelease
- 2db59620360acbe28d528bd9b04777d8 456 dists/stable/Release
- ce31efeba10d17560cc41f6d60e7b53e 870 dists/stable/Release.gpg
- b4125c6305e8a88836d6bd7f48e1701e 4936 dists/stable/main/binary-arm64/Packages
- 802ce11c5c85d92e5f111a6374e1173b 2034 dists/stable/main/binary-arm64/Packages.gz
- 01d4a36c5f4fe66e339c67a65fa3d7f9 594 generate_release.sh
- 953ff83c672c44029bad8c1fd43f4a4f 1648 pgp-key.public
- 370ce34e4a25493b7ce45dd5f7d6e589 8828416 pool/main/linux-headers-4.19.232-vaaman_20230809-vaaman_arm64.deb
- 3c80da8482a32ae3ded36b5dd5c0745f 11359816 pool/main/linux-image-4.19.232-vaaman_20230809-vaaman_arm64.deb
- 492eaab490ed2b070d741f027bfeeb41 1081864 pool/main/linux-libc-dev_20230809-vaaman_arm64.deb
- b6439486320dcbed1779aa1baa4cee7e 10240 pool/main/u-boot-menu_4.2.2_all.deb
- 1c262d0e73d271c98c70eb9627d373fe 665796 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
- 88a2024b4ebed13247dd6368207a3b3e 20284 pool/main/vicharak-config_0.0.4_all.deb
- 80e87dfd31a67403fe296f99a5556742 185984 pool/main/vicharak-firmware_0.1.1_all.deb
- c7451933314bdace54fab27825d3654a 795 update_apt_repo.sh
+ 4b3f1df57f81f856a3354c5affa684a0            70423 Contents-arm64.bz2
+ d9f21b13d62627b86bad6baa4fe014ea            85465 Contents-arm64.gz
+ f8b2386b27bf89024cbab73bde4cbb48              218 Release
+ 4b3f1df57f81f856a3354c5affa684a0            70423 main/Contents-arm64.bz2
+ d9f21b13d62627b86bad6baa4fe014ea            85465 main/Contents-arm64.gz
+ 049026eba15067a0859663f777b6e5b3             5895 main/binary-arm64/Packages
+ 3ee4ff0977e0f254b1e26199fbfa30ec             2667 main/binary-arm64/Packages.bz2
+ 873462ed575e970d68c6bf3899d1c0d5             2613 main/binary-arm64/Packages.gz
 SHA1:
- 6409453d864f67523f4e337e1db0d4f31889bc1b 1070 LICENSE
- 20925136779391e88c95e430d0bc43592ab4d19a 1179 README.md
- 5a81be15d5a04f8786d51fdd12d0033c84bcad58 182 create_pgp_key.batch
- c4919276614735cd9acfa4aac0e889b7fa49724c 5815 dists/stable/InRelease
- c53ab0b34c4e249172f5571a0fecbe58894a0109 1801 dists/stable/Release
- 2e56dbd58fda995b9a333b5a8eedc3b619c9d876 870 dists/stable/Release.gpg
- 15e9fdc323b3b8ac8bf18ea2b187e1739abb1616 4936 dists/stable/main/binary-arm64/Packages
- 7167efc0667bdb7fdeeb6d60d9eddf0a8d93f8c6 2034 dists/stable/main/binary-arm64/Packages.gz
- 07f24baea62080bce3cc8207232db8aa59e2dd09 594 generate_release.sh
- 8f293246053da3120e84e4a73abca2e077438013 1648 pgp-key.public
- 3f7ca76473bd490e7618f8a725a3c72b1b5151a9 8828416 pool/main/linux-headers-4.19.232-vaaman_20230809-vaaman_arm64.deb
- f61103f1e33ab3b1d669ab8fadd1ca7beec3fb23 11359816 pool/main/linux-image-4.19.232-vaaman_20230809-vaaman_arm64.deb
- a85a971a03e8dce3f794e8d189588cca7b87fcc4 1081864 pool/main/linux-libc-dev_20230809-vaaman_arm64.deb
- 44b796b7327180f6756ba911f87d88f0ae18d913 10240 pool/main/u-boot-menu_4.2.2_all.deb
- bbc306c0db63495c219ce51ca5f8b9dcc15cdbbb 665796 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
- 0bf200a78e6dc67c2552a0fe3a51778f914f847b 20284 pool/main/vicharak-config_0.0.4_all.deb
- 48a3c5a47ec5b7a8e36ee36e3f7adec666ce9552 185984 pool/main/vicharak-firmware_0.1.1_all.deb
- 91eb52b0e2f1da598daae008d236edb52ab530cc 795 update_apt_repo.sh
+ 39b8f7dc5ffd7801040a6db4cd7f0339d5d7c9c8            70423 Contents-arm64.bz2
+ 818cdd23556884ba5bffd4bf3c5cace9bfb587a9            85465 Contents-arm64.gz
+ 30eca854c8f599e01544c203ad2310765656d9cd              218 Release
+ 39b8f7dc5ffd7801040a6db4cd7f0339d5d7c9c8            70423 main/Contents-arm64.bz2
+ 818cdd23556884ba5bffd4bf3c5cace9bfb587a9            85465 main/Contents-arm64.gz
+ 618e4bc1bfea6125ec1dfc04218eef460a3cab41             5895 main/binary-arm64/Packages
+ 6827426b5303b993c2d8a26891f0e9c51377079b             2667 main/binary-arm64/Packages.bz2
+ 44a3b2e0e781235d4e432e27f10339d530d94cf3             2613 main/binary-arm64/Packages.gz
 SHA256:
- 4e290c1c2192e1f53a2e1f0dde109914e529a3aa1519f502dc657e76eeeaaf9b 1070 LICENSE
- 6d9dfb7d9ef37424394db3ffa6bb15b15c1e0aecd58835e4482e0237ae517671 1179 README.md
- befffeb7e471f4bdf3748c76012e29db0016a98cdcbea79eaa3e86031a912795 182 create_pgp_key.batch
- c86b220d51f3cde97129f121911e42376f50820620e59a23e30a8d583f2eaef3 5815 dists/stable/InRelease
- 1fa84a254c88b53bb92dd53ac1f0250d452c616a89e22a372a542017db71808a 3357 dists/stable/Release
- a3de40e4f6ed6118e0cc2d7f45c6a1bb4e6578d6c8d1cfea1b09cf31720f34d0 870 dists/stable/Release.gpg
- 9491458efd8389744d046b6673c653a397d2f3834d234356f32c40f9c39ed7c2 4936 dists/stable/main/binary-arm64/Packages
- 000615d85a8160f6e6771b13de072f2f91c0d37c12082d6b90374e337454561e 2034 dists/stable/main/binary-arm64/Packages.gz
- 2fe240629b350e089ca55cffc4e2fe8faa9c172c577cfbe01e131f15a343ee34 594 generate_release.sh
- c8082019a2a9a51717ffb4d65463bdb9f09ed0363f728a87f31fa3db93ab8fb4 1648 pgp-key.public
- 94e71621f15e6b0c8c8ef74335c7e123bf40ae4afde1e990354946da9cdf8bb1 8828416 pool/main/linux-headers-4.19.232-vaaman_20230809-vaaman_arm64.deb
- 7b47002f8a4060a372504a33f448c54ac5f3b1e1292912aa88ebad36a4208446 11359816 pool/main/linux-image-4.19.232-vaaman_20230809-vaaman_arm64.deb
- 42b2b77457684cae8fab411694fec1f816c8b54f49c4b6461ff315b35e37cd75 1081864 pool/main/linux-libc-dev_20230809-vaaman_arm64.deb
- 8bec395997eb8c44a2582eb4dcf55a3a60d87b62109002eba6a450d0862fd361 10240 pool/main/u-boot-menu_4.2.2_all.deb
- c2560bcf5cfc28626f1f56f4d65b20678e60965cdbf99b99f2dc3610d7eac58c 665796 pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
- b75a387a0141fde6f798669fafba8332fdf14107fcb589b758990d22affda76c 20284 pool/main/vicharak-config_0.0.4_all.deb
- 92f1d897969a8e2b68c1f60c97b66314e4e5b390b0c2fa902e43719dc97312ba 185984 pool/main/vicharak-firmware_0.1.1_all.deb
- f951ff59241242795ffc0f627e04fbdab8ee8b8775b07e39c5d2f21c080bf7bd 795 update_apt_repo.sh
+ 93f69ad2ebc7e2b2b064f9be8be6cd471f6b7a87f074005d0bb2e5c99315e761            70423 Contents-arm64.bz2
+ 640154deec5c6882aba27b39538d09a9fc46f224c418a42c6afdcb98cc742e27            85465 Contents-arm64.gz
+ 3bcb6077d0be35cfd91e23ee9869d8b7754659cae27c07bc5ab6f0d5004d42a5              218 Release
+ 93f69ad2ebc7e2b2b064f9be8be6cd471f6b7a87f074005d0bb2e5c99315e761            70423 main/Contents-arm64.bz2
+ 640154deec5c6882aba27b39538d09a9fc46f224c418a42c6afdcb98cc742e27            85465 main/Contents-arm64.gz
+ 44f2334ca126651fb739ab80e1f14ccb37b040e8a8fe2dd3499abba38810e79c             5895 main/binary-arm64/Packages
+ 620a44ac512182c478d5c4b89282ba526c7187f361bb27963acd3ead1f2f479f             2667 main/binary-arm64/Packages.bz2
+ a94adbe89de63d44f176d12e5af0f5f5183746babccafbffd48e65a59219eea9             2613 main/binary-arm64/Packages.gz
+SHA512:
+ a097cf1d14af4c9e125b973295379f3f19f03b68a9b0acb0b457904505d626efa0de45b201cf3e5f5cafeffc7702764e25a94c11e088cb909cc3566b61124143            70423 Contents-arm64.bz2
+ 391c3c4a546bae636f5f43c7c7fba35843bf313bccd17274608246c7044670676ae7959665325edbf4d6311178fa11865c1b1e6392a936410a4076b389af42fc            85465 Contents-arm64.gz
+ ecae62a01f637ddc5237679f829b97c01ca6757f143980fb1dccbf6bdc69a2e9015f2b59b701bd8c43c53ed2231a104ca189e508e269f17f9e204ac7a71bf71b              218 Release
+ a097cf1d14af4c9e125b973295379f3f19f03b68a9b0acb0b457904505d626efa0de45b201cf3e5f5cafeffc7702764e25a94c11e088cb909cc3566b61124143            70423 main/Contents-arm64.bz2
+ 391c3c4a546bae636f5f43c7c7fba35843bf313bccd17274608246c7044670676ae7959665325edbf4d6311178fa11865c1b1e6392a936410a4076b389af42fc            85465 main/Contents-arm64.gz
+ 0eec7c2046ac53d601dfb7787f6b0aed37a09a21ed0279f78358ac102b3b2573ee102678bd9a892794c9a36a27689aff7c56bb18b2ee0577fec47544a9f8a15b             5895 main/binary-arm64/Packages
+ 86a423a159aaf7f6f5be47e324e4e8f827455a32feff40a2558bceef01f474b27c3e99a6a218aeed790eb19afbfe6771fefd3a3988a74b9719c1d96785c0cbe1             2667 main/binary-arm64/Packages.bz2
+ 75bad660594963e9b268cbfa1221844f591e841c6896c4f2821d15427f2aeab0953f93c1a2bb38f5c0ab006731e170b38910902c70e4784ba38994a125afb9bf             2613 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQJNBAEBCgA3FiEE9enjg2LfH9Oqr9JG7F2frQH4rWAFAmTTNMkZHHV0c2F2YmFs
-YXIxMjMxQGdtYWlsLmNvbQAKCRDsXZ+tAfitYFucEACJ4ufq0Ke1jyzmxLpWpJJQ
-O+8vdeVgjD2dn16L3LloyAfHQJ/4I25NA4blJFxE4Tnoztel/fzybbP3UfY8Jgv4
-FKg6dpZtLAR9acdZel3cteXCBtxeDaC820he4VW85QbUbRoonn3Y8l+Y9w9DtZmE
-p/QiMMyKzgOMX3hn3X4howG2rQW0VnqJV+Nnza0wrhAgIIvZ9pSx0+sDDHyOdyov
-mke7PRi+UAXJvhNIxYPsASZ9BCQeKGJtmzhTIdN1wDdiOOUrow548klc+8eWQLTT
-r1PA6M+UItlPyJbJ32uIn7Hya0SM6CEpwo3X2vF8FblrrKa31tjkpyP7KDiwSdTl
-tRH4mbS001J33Vro3WyqbgFfArjI8qysJKWs5XDjVdh8VvyobyYEyRIbtvq+4z7n
-CBM1EfPg2jsctvFfp3i6/UhswrtlCf3ocVi/S5UEILnURb0+iKkvuwAdVnQKFXnU
-7iSlZUVPpRDnDdILPo5tTFUGxZUjFVLUYzww6RWsxNtne2C4Ig/ulnoKrR46tEpS
-JolNSi2LYHlmNRy5SWz7gdgEnFCQy6PbvWUeghvAMH9y/Kl9wkcnVvR+Hl9rN5ka
-+OIFY/bTxjKbVV/j2UJzTC98jqUiIlrMywgnIL+3tN6nNLy7osOKYTdfWiGlQaEb
-k0o9+R/remUCquPNw80DnQ==
-=SbJ7
+iQJNBAEBCgA3FiEE9enjg2LfH9Oqr9JG7F2frQH4rWAFAmTUjrwZHHV0c2F2YmFs
+YXIxMjMxQGdtYWlsLmNvbQAKCRDsXZ+tAfitYKWMD/4/TmTFPKapccA+zxv6e1bI
+2yegkYj70CCo2Fjq1x5vWbFDmQU3egKzYhMAOaBTPvbCc5zTlCGFvpTlLOEqGqT9
+IPV4NM90z2EoOkHUV3X2eGolW/nty2EzV6xiDv2pCPE9+i+8V+CmZPJZgkOEZcck
+tHaeMevdLMUSS5HWR6xLNVz3DK0vG5Y5/vd73x7GNsbRiWUL6GwUYChcM0CDlEel
+awNCoLRecCkGJj3v2Q4NwX32ylpzFqjcZvXAZf/DR1Fy6IKg4D2ThkZjFty6UTVf
+cuWcTabD21+/ODsZiepNUCOEVlQJgvma3nx13ZxbYWA/ogEjGI/z4xZiwp8wBaAV
+JIEc/WxObTGgqz6P+vuhC6ulvWqBeowkUpU4v3LYbyaeTuSBysxwYTsBW37R+3yq
+b55l33CPxLuVUf9Ml66BTHJcBz4GeeVNvwqulk6eeAfuKaZqmEPfhDKciojrZADO
+MbaUPaoJ80PAyPFOQbXZX++pwvkUE0pzdNAEkqgn0ucKH1AhoCqPkgXLeuF/LPwU
+jsqZQg/wLeekQb9FTuMxbAl/Xl/s+EdJo0xWdTEJZuO9CzPAc3Wl7iQ4lzPG3DBb
+kuce78R5WePeuR3VR39+2AJpiFG2Osarx32/JXuY7uiGMIecXZ77xOxR1rcrfQ2k
+OWzcuBYTkLOhiIwAGTFIwA==
+=PZmF
 -----END PGP SIGNATURE-----
