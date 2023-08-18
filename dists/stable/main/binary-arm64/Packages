@@ -1,17 +1,17 @@
 Package: linux-headers-4.19.232-vaaman
 Architecture: arm64
-Version: 20230809-vaaman
+Version: 20230818-vaaman
 Priority: optional
 Section: kernel
 Source: linux-4.19.232-vaaman
 Maintainer: vicharak <vicharak@galactos>
-Installed-Size: 57838
-Filename: pool/main/linux-headers-4.19.232-vaaman_20230809-vaaman_arm64.deb
-Size: 8828416
-MD5sum: 370ce34e4a25493b7ce45dd5f7d6e589
-SHA1: 3f7ca76473bd490e7618f8a725a3c72b1b5151a9
-SHA256: 94e71621f15e6b0c8c8ef74335c7e123bf40ae4afde1e990354946da9cdf8bb1
-SHA512: df6205929ad7ab0727606629d169fa42ab8bc3c21952cc526d0cb8c5d1a0ae3a0b3962d19a308b4772bdc69fa32a7a3771bc90e42fb08ab59721c1ce270f859a
+Installed-Size: 57669
+Filename: pool/main/linux-headers-4.19.232-vaaman_20230818-vaaman_arm64.deb
+Size: 8820660
+MD5sum: 85f63cd09ccea6f0744aa256be33b8d5
+SHA1: 3f10a789d2384835252211e813c525065fcd6073
+SHA256: b89da6008d91102465f4b8f3f438e9eba1c44fe4d2b92106617c866cd173d912
+SHA512: 85392f474f0e4b81bf2137b0148cde2d7fd664267fb017bf39428f94153494fb85a60000a3ad4352a4fd5013186750da4ef293bbe3a48a88811804094ae8b093
 Homepage: http://www.kernel.org/
 Description: Linux kernel headers for 4.19.232-vaaman on arm64
  This package provides kernel header files for 4.19.232-vaaman on arm64
@@ -20,18 +20,18 @@ Description: Linux kernel headers for 4.19.232-vaaman on arm64
 
 Package: linux-image-4.19.232-vaaman
 Architecture: arm64
-Version: 20230809-vaaman
+Version: 20230818-vaaman
 Priority: optional
 Section: kernel
 Source: linux-4.19.232-vaaman
 Maintainer: vicharak <vicharak@galactos>
-Installed-Size: 47702
-Filename: pool/main/linux-image-4.19.232-vaaman_20230809-vaaman_arm64.deb
-Size: 11359816
-MD5sum: 3c80da8482a32ae3ded36b5dd5c0745f
-SHA1: f61103f1e33ab3b1d669ab8fadd1ca7beec3fb23
-SHA256: 7b47002f8a4060a372504a33f448c54ac5f3b1e1292912aa88ebad36a4208446
-SHA512: d13e633e682faa39bfc09b363455a56311c86b333f10621f57e5736956fd31592592e1dc62931bb7ba25105f97ae9621b28515735d78aa0e1931e709b464d1eb
+Installed-Size: 47699
+Filename: pool/main/linux-image-4.19.232-vaaman_20230818-vaaman_arm64.deb
+Size: 11354740
+MD5sum: 321ed89c85287a0054ee95076d8e5c2a
+SHA1: 611d5f6b4b9b3d59545905ad5077bf8f1e73ad7c
+SHA256: ff67cc34593fed74f3c0981e9ec3a926e978dd2f88afa2be7d5d7aaa6096eb6c
+SHA512: b72a3aee9b1eb57e9985f7e1231a7eca0e4a869e169ac165c1c43c06d8851f5be66a7de3c9d9e46ccb85843f40ac2cc49df7af96a6c5d958088b47dcd071dab4
 Homepage: http://www.kernel.org/
 Description: Linux kernel, version 4.19.232-vaaman
  This package contains the Linux kernel, modules and corresponding other
@@ -39,19 +39,19 @@ Description: Linux kernel, version 4.19.232-vaaman
 
 Package: linux-libc-dev
 Architecture: arm64
-Version: 20230809-vaaman
+Version: 20230818-vaaman
 Priority: optional
 Section: devel
 Source: linux-4.19.232-vaaman
 Maintainer: vicharak <vicharak@galactos>
 Installed-Size: 5746
 Provides: linux-kernel-headers
-Filename: pool/main/linux-libc-dev_20230809-vaaman_arm64.deb
-Size: 1081864
-MD5sum: 492eaab490ed2b070d741f027bfeeb41
-SHA1: a85a971a03e8dce3f794e8d189588cca7b87fcc4
-SHA256: 42b2b77457684cae8fab411694fec1f816c8b54f49c4b6461ff315b35e37cd75
-SHA512: 277b8ca362d76a90732ae81b5d2294c0cec6342d3c1451fe68adc325515ddb3b315f4285a52b30b4876bfed681f68eab5c623d802c05731184a651d8c21ddb28
+Filename: pool/main/linux-libc-dev_20230818-vaaman_arm64.deb
+Size: 1081968
+MD5sum: c14ef773203549a9c6153d7badeff7db
+SHA1: 28b586ccd565664c71078b62a2aceb3766990557
+SHA256: ece73e453ba1e03c143c42b38d1eae9c8947708bc110bbeae9a93e01c53631ed
+SHA512: 212ef6c48dcc62cd238ae7f61f29c0729273ab0aef4aa7bd80902a5baf5832ce49f872326fc4180ce854610ad3f83b2d75f223d8f542b1a8467dcd548d303dc1
 Homepage: http://www.kernel.org/
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
@@ -59,7 +59,7 @@ Description: Linux support headers for userspace development
 
 Package: u-boot-menu
 Architecture: all
-Version: 4.2.2
+Version: 5.0.0
 Multi-Arch: foreign
 Priority: optional
 Section: admin
@@ -67,12 +67,12 @@ Maintainer: Jonas Smedegaard <dr@jones.dk>
 Installed-Size: 40
 Depends: linux-base
 Suggests: flash-kernel
-Filename: pool/main/u-boot-menu_4.2.2_all.deb
-Size: 10240
-MD5sum: b6439486320dcbed1779aa1baa4cee7e
-SHA1: 44b796b7327180f6756ba911f87d88f0ae18d913
-SHA256: 8bec395997eb8c44a2582eb4dcf55a3a60d87b62109002eba6a450d0862fd361
-SHA512: 943c374db3a431865050c97f7a49903eae99770482a3689956a143a893b0e71bfeda9fdaa3915ded42b2dd610e7cab254003a7f10a1098e75d00cd7ad43314e4
+Filename: pool/main/u-boot-menu_5.0.0_all.deb
+Size: 10372
+MD5sum: 359a6666418f21a8d06a79a44f56690f
+SHA1: 18babd53cb6a9545efa0b1559b09ef6bf2b22b43
+SHA256: f9d0a0e386cbb26cd6430d4c7388e2e93379cc0f70d5f07d58e2b03afeeccf21
+SHA512: f9e5ea4e17e3701729c107d843e6774e1f1f0b1c618a3d0b6131ad6c86858bdc17add78869f825bb3423403fea65f7b69b6a2455760139ebfb552189238a2250
 Homepage: https://github.com/suihkulokki/u-boot-menu
 Description: u-boot menu update
  Automatically create extlinux-style boot menu for u-boot. Boot menu
