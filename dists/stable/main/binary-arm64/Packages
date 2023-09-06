@@ -18,6 +18,26 @@ Description: Linux kernel headers for 4.19.232-vaaman on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.19.232-vaaman
+Architecture: arm64
+Version: 20230906-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 59191
+Filename: pool/main/linux-headers-4.19.232-vaaman_20230906-vaaman_arm64.deb
+Size: 9027172
+MD5sum: 9c29c403ac93a63ec7b858a718637c6f
+SHA1: 09873c1bba1663aa2ed6c58fef026f2ce2966841
+SHA256: 84d86c87904949518b0005281b0f3283a7669ad537962edc8faee9c3b451d051
+SHA512: 66dc234048d8b4cd11694e980a2196bc592d2fd43bce7a992865928bfce5b0d709c7958c6391b8dbaab7c49cf519e897c0ad8b9d8e0f99116550f1f988aa2f63
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.19.232-vaaman on arm64
+ This package provides kernel header files for 4.19.232-vaaman on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.232-vaaman
 Architecture: arm64
 Version: 20230818-vaaman
@@ -32,6 +52,25 @@ MD5sum: 321ed89c85287a0054ee95076d8e5c2a
 SHA1: 611d5f6b4b9b3d59545905ad5077bf8f1e73ad7c
 SHA256: ff67cc34593fed74f3c0981e9ec3a926e978dd2f88afa2be7d5d7aaa6096eb6c
 SHA512: b72a3aee9b1eb57e9985f7e1231a7eca0e4a869e169ac165c1c43c06d8851f5be66a7de3c9d9e46ccb85843f40ac2cc49df7af96a6c5d958088b47dcd071dab4
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.19.232-vaaman
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.232-vaaman.
+
+Package: linux-image-4.19.232-vaaman
+Architecture: arm64
+Version: 20230906-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 49305
+Filename: pool/main/linux-image-4.19.232-vaaman_20230906-vaaman_arm64.deb
+Size: 11582860
+MD5sum: 1145e16027e10c6f8824ae7e6f893562
+SHA1: e91d66a7042964751d904b712e6ad9d05c2f22af
+SHA256: 2d908fa8d8aeaebf3adac02c99da25162628ec45b9c0b6fcb2f019dc1b814e03
+SHA512: f929e13b0f8ad3858a4467d8a8ab5190ab9eebe95d7fe6ee14c4341042e5e237423ed810680f70a87f907832251eaedd8364a654ec33bddf0606ba679c13acac
 Homepage: http://www.kernel.org/
 Description: Linux kernel, version 4.19.232-vaaman
  This package contains the Linux kernel, modules and corresponding other
@@ -52,6 +91,26 @@ MD5sum: c14ef773203549a9c6153d7badeff7db
 SHA1: 28b586ccd565664c71078b62a2aceb3766990557
 SHA256: ece73e453ba1e03c143c42b38d1eae9c8947708bc110bbeae9a93e01c53631ed
 SHA512: 212ef6c48dcc62cd238ae7f61f29c0729273ab0aef4aa7bd80902a5baf5832ce49f872326fc4180ce854610ad3f83b2d75f223d8f542b1a8467dcd548d303dc1
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Architecture: arm64
+Version: 20230906-vaaman
+Priority: optional
+Section: devel
+Source: linux-4.19.232-vaaman
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 5748
+Provides: linux-kernel-headers
+Filename: pool/main/linux-libc-dev_20230906-vaaman_arm64.deb
+Size: 1082376
+MD5sum: 9c297b41e0ff8ec100680918c16512e1
+SHA1: 9d4808a11b4abc4d3ef75ca324ae401272439481
+SHA256: 9fb992ec2e940cf53171297e5d1e6d016e7f8a7a5a40fd41e1bc850b84bf935e
+SHA512: 78f68ac58da13a269e10b0eef262de29eb313dd8bf8335e9e2171f5f344735f6001f6d88ab21590fe94bbe93d8f2be6dd1b0d4762d7936c8ddb8fe79f2148c4b
 Homepage: http://www.kernel.org/
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
