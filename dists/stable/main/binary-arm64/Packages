@@ -38,6 +38,26 @@ Description: Linux kernel headers for 4.19.232-vaaman on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.19.232-vaaman
+Architecture: arm64
+Version: 20230921-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 57750
+Filename: pool/main/linux-headers-4.19.232-vaaman_20230921-vaaman_arm64.deb
+Size: 8828752
+MD5sum: ac26f590152b283bb06c983440620e06
+SHA1: 776e8dde9dc7b0f968064296ef78302fdf3cc4d1
+SHA256: a6d52b532ef09ee52c8b3287eb89a28d636c45c49770d46fb4c825f91849576d
+SHA512: 762d0809fb82f4588242d84976ca8dc77d328c083a055e20a85365499bce44992aeff8d43a8011338e49b0a7598e174d044884ea427a35a9e8b26130797b07a3
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.19.232-vaaman on arm64
+ This package provides kernel header files for 4.19.232-vaaman on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.232-vaaman
 Architecture: arm64
 Version: 20230818-vaaman
@@ -71,6 +91,25 @@ MD5sum: 1145e16027e10c6f8824ae7e6f893562
 SHA1: e91d66a7042964751d904b712e6ad9d05c2f22af
 SHA256: 2d908fa8d8aeaebf3adac02c99da25162628ec45b9c0b6fcb2f019dc1b814e03
 SHA512: f929e13b0f8ad3858a4467d8a8ab5190ab9eebe95d7fe6ee14c4341042e5e237423ed810680f70a87f907832251eaedd8364a654ec33bddf0606ba679c13acac
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.19.232-vaaman
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.232-vaaman.
+
+Package: linux-image-4.19.232-vaaman
+Architecture: arm64
+Version: 20230921-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 49319
+Filename: pool/main/linux-image-4.19.232-vaaman_20230921-vaaman_arm64.deb
+Size: 11595160
+MD5sum: f74e6f76da469ddc77e71dc15caa0657
+SHA1: 58bb3911faf2d2056cd49aab3e312a6001be4236
+SHA256: d4e7ddf82add8385454488e871641ed2c57051654c7ddd4db3965376361b5dfc
+SHA512: d642241989a940c21e131499831ba2922807bc10b2479c0859495249c4629cde1a3b36cf4ede92aa5041b56860250e451526bfb97af39761a77d4f0266fb16b3
 Homepage: http://www.kernel.org/
 Description: Linux kernel, version 4.19.232-vaaman
  This package contains the Linux kernel, modules and corresponding other
@@ -116,6 +155,26 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: linux-libc-dev
+Architecture: arm64
+Version: 20230921-vaaman
+Priority: optional
+Section: devel
+Source: linux-4.19.232-vaaman
+Maintainer: vicharak <vicharak@galactos>
+Installed-Size: 5748
+Provides: linux-kernel-headers
+Filename: pool/main/linux-libc-dev_20230921-vaaman_arm64.deb
+Size: 1082348
+MD5sum: 715f7057021294199e1c58d1e058496d
+SHA1: c20aefedb5c9eba87f30fcd185904a393fb8bdc4
+SHA256: 63fd3e1c45f744ffbd0ca1afbf987e074f08d9e917facd94d1e73db9da7d1873
+SHA512: 31b3c7fefbb471314932fb6418eaf7c0f2bc11ab26baba7f67eee5a7312f5c40f3ac6525ab4bb44e434d7febd269d4198cabd94ae27e4939add5c10ba28dd979
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
 Package: u-boot-menu
 Architecture: all
 Version: 5.0.0
@@ -143,7 +202,7 @@ Description: u-boot menu update
 
 Package: u-boot-rk3399-vaaman
 Architecture: arm64
-Version: 22072023
+Version: 1.1.0
 Priority: optional
 Section: admin
 Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
@@ -151,12 +210,12 @@ Installed-Size: 8440
 Provides: u-boot-rk3399-vaaman
 Conflicts: u-boot-rk3399-vaaman
 Replaces: u-boot-rk3399-vaaman
-Filename: pool/main/u-boot-rk3399-vaaman_22072023_arm64.deb
-Size: 665796
-MD5sum: 1c262d0e73d271c98c70eb9627d373fe
-SHA1: bbc306c0db63495c219ce51ca5f8b9dcc15cdbbb
-SHA256: c2560bcf5cfc28626f1f56f4d65b20678e60965cdbf99b99f2dc3610d7eac58c
-SHA512: 10aa1e279f91bda47d6e0a4cc84ed5bdfcf33c39b24e0d5666c88cc60b1c3ff9895b18fd857d105bfd709ab76bfe9d766d543f198682d09de633c53eb3fb9476
+Filename: pool/main/u-boot-rk3399-vaaman_1.1.0_arm64.deb
+Size: 651388
+MD5sum: fd563c4c29cc72427b95df30971efae3
+SHA1: 7007500267635bb23165c5e19a3327c023f2eeba
+SHA256: edd63a58db72cd597e3bfa0daa9bd4b131fc39525ccca55647273f17f37bb8de
+SHA512: b8978130b41cc5d7d548c0e4d9642a3b3677306c9d539d8dd604ba658e6a51e6b4d168125e561373340c5c0376f9baec0740ce72da9aae1b815477e873c599e8
 Description: A boot loader for the Vicharak Vaaman board.
  Das U-Boot is a cross-platform bootloader for embedded systems,
  used as the default boot loader by several board vendors.  It is
