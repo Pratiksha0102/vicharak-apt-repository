@@ -260,3 +260,26 @@ Description: Vicharak Custom Linux firmware
  This package contains firmwares that are not
  shipped by Debian.
 
+Package: u-boot-rk3399-vaaman
+Architecture: arm64
+Version: 1.1.1
+Priority: optional
+Section: admin
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 8440
+Provides: u-boot-rk3399-vaaman
+Conflicts: u-boot-rk3399-vaaman
+Replaces: u-boot-rk3399-vaaman
+Filename: pool/u-boot-rk3399-vaaman_1.1.1_arm64.deb
+Size: 652068
+MD5sum: d48945ba7d506912551a7bb30bdf6222
+SHA1: 53203cdca0892ca10466a8ef989f167254458968
+SHA256: a5f7d5aaba4761896f7e6e83e5f76607f150f866e70e06c273119a4bcc7a2c35
+SHA512: 8dad71d498018d33bda3db01efd0aa7f37f7c95ba604434cc8ef610221ac5419379f928a44bbabe2c457c282caa7592a759f8b37cd5d85d2021f02de40bb0a7c
+Description: A boot loader for the Vicharak Vaaman board.
+ Das U-Boot is a cross-platform bootloader for embedded systems,
+ used as the default boot loader by several board vendors.  It is
+ intended to be easy to port and to debug, and runs on many
+ supported architectures, including PPC, ARM, MIPS, x86, m68k,
+ NIOS, and Microblaze.
+
