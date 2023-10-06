@@ -202,7 +202,7 @@ Description: u-boot menu update
 
 Package: u-boot-rk3399-vaaman
 Architecture: arm64
-Version: 1.1.0
+Version: 1.1.1
 Priority: optional
 Section: admin
 Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
@@ -210,12 +210,12 @@ Installed-Size: 8440
 Provides: u-boot-rk3399-vaaman
 Conflicts: u-boot-rk3399-vaaman
 Replaces: u-boot-rk3399-vaaman
-Filename: pool/main/u-boot-rk3399-vaaman_1.1.0_arm64.deb
-Size: 651388
-MD5sum: fd563c4c29cc72427b95df30971efae3
-SHA1: 7007500267635bb23165c5e19a3327c023f2eeba
-SHA256: edd63a58db72cd597e3bfa0daa9bd4b131fc39525ccca55647273f17f37bb8de
-SHA512: b8978130b41cc5d7d548c0e4d9642a3b3677306c9d539d8dd604ba658e6a51e6b4d168125e561373340c5c0376f9baec0740ce72da9aae1b815477e873c599e8
+Filename: pool/main/u-boot-rk3399-vaaman_1.1.1_arm64.deb
+Size: 652068
+MD5sum: d48945ba7d506912551a7bb30bdf6222
+SHA1: 53203cdca0892ca10466a8ef989f167254458968
+SHA256: a5f7d5aaba4761896f7e6e83e5f76607f150f866e70e06c273119a4bcc7a2c35
+SHA512: 8dad71d498018d33bda3db01efd0aa7f37f7c95ba604434cc8ef610221ac5419379f928a44bbabe2c457c282caa7592a759f8b37cd5d85d2021f02de40bb0a7c
 Description: A boot loader for the Vicharak Vaaman board.
  Das U-Boot is a cross-platform bootloader for embedded systems,
  used as the default boot loader by several board vendors.  It is
@@ -259,27 +259,4 @@ SHA512: f2d44b537c0b6ec1f3e23882c46d45ade6f57aa1964ec6b040baa16f9d2357c0db069375
 Description: Vicharak Custom Linux firmware
  This package contains firmwares that are not
  shipped by Debian.
-
-Package: u-boot-rk3399-vaaman
-Architecture: arm64
-Version: 1.1.1
-Priority: optional
-Section: admin
-Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
-Installed-Size: 8440
-Provides: u-boot-rk3399-vaaman
-Conflicts: u-boot-rk3399-vaaman
-Replaces: u-boot-rk3399-vaaman
-Filename: pool/u-boot-rk3399-vaaman_1.1.1_arm64.deb
-Size: 652068
-MD5sum: d48945ba7d506912551a7bb30bdf6222
-SHA1: 53203cdca0892ca10466a8ef989f167254458968
-SHA256: a5f7d5aaba4761896f7e6e83e5f76607f150f866e70e06c273119a4bcc7a2c35
-SHA512: 8dad71d498018d33bda3db01efd0aa7f37f7c95ba604434cc8ef610221ac5419379f928a44bbabe2c457c282caa7592a759f8b37cd5d85d2021f02de40bb0a7c
-Description: A boot loader for the Vicharak Vaaman board.
- Das U-Boot is a cross-platform bootloader for embedded systems,
- used as the default boot loader by several board vendors.  It is
- intended to be easy to port and to debug, and runs on many
- supported architectures, including PPC, ARM, MIPS, x86, m68k,
- NIOS, and Microblaze.
 
