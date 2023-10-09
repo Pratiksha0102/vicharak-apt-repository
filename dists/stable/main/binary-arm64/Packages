@@ -243,6 +243,27 @@ Description: Vicharak system setup utility
  system configuration tasks.
  It also provides an on-boot configuration service to allow customization.
 
+Package: vicharak-config
+Architecture: all
+Version: 0.0.6
+Priority: standard
+Section: admin
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 133
+Depends: device-tree-compiler, gdisk, parted, pkexec | policykit-1 (<< 122-1), whiptail
+Suggests: x-terminal-emulator
+Filename: pool/main/vicharak-config_0.0.6_all.deb
+Size: 20784
+MD5sum: 855ad47b5210042b4fbe6b5a716d63a8
+SHA1: 11b46312a620ccc24bf71b5f4b7819cc7bbc4675
+SHA256: 26553ab8e6c4749866530264bc17153f89e3c5b4456ae0642a47f304719c4195
+SHA512: 831349e1ac7ae38c9bd2e6e31bdc9c24f45aea132f1dc4a9609c1ce716b11acf9e81d49a6a1358af1a008aa346d7fd47bde10cb63b39495881a5e5409a293e8b
+Description: Vicharak system setup utility
+ Vicharak system setup utility (vicharak-config) provides an
+ user friendly menu to perform many essential
+ system configuration tasks.
+ It also provides an on-boot configuration service to allow customization.
+
 Package: vicharak-firmware
 Architecture: all
 Version: 0.1.1
