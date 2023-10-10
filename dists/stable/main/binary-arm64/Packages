@@ -58,6 +58,26 @@ Description: Linux kernel headers for 4.19.232-vaaman on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.19.232-vaaman
+Architecture: arm64
+Version: 20231010-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 57782
+Filename: pool/main/linux-headers-4.19.232-vaaman_20231010-vaaman_arm64.deb
+Size: 8833400
+MD5sum: bcf0cf108e9e6d8d5b1604a4918fd398
+SHA1: 6301d9e82c2a3fb424496c89c086c6e702dabe64
+SHA256: 42a1cb81c96e36daf9c4fecb6caec10484ae305d3a8ee82ffc3d83b7e20f923f
+SHA512: 18b223186c4f83ba9f906467e5973f90735b9578be4c4755bf74be8ed7948d6387b0f4a8d77a5f9c2d63343f0b8fade169e56d61b6c38b61e78f491ed06fe5e1
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.19.232-vaaman on arm64
+ This package provides kernel header files for 4.19.232-vaaman on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.232-vaaman
 Architecture: arm64
 Version: 20230818-vaaman
@@ -110,6 +130,25 @@ MD5sum: f74e6f76da469ddc77e71dc15caa0657
 SHA1: 58bb3911faf2d2056cd49aab3e312a6001be4236
 SHA256: d4e7ddf82add8385454488e871641ed2c57051654c7ddd4db3965376361b5dfc
 SHA512: d642241989a940c21e131499831ba2922807bc10b2479c0859495249c4629cde1a3b36cf4ede92aa5041b56860250e451526bfb97af39761a77d4f0266fb16b3
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.19.232-vaaman
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.232-vaaman.
+
+Package: linux-image-4.19.232-vaaman
+Architecture: arm64
+Version: 20231010-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 49327
+Filename: pool/main/linux-image-4.19.232-vaaman_20231010-vaaman_arm64.deb
+Size: 11594652
+MD5sum: e530f64e663535ca3ebca85d50f60183
+SHA1: 26d14040bce7caa54f1939db1d0408cab58686e9
+SHA256: 7c13a69c88285cf3315cfdf2dab170cb511f8e8f8e7b960128921e30ffe0abf5
+SHA512: 568a19084bcce03a87d15e2487b22a6c2a80eec0255028f6559b3964f1e96cc85c98b540bc67b5b6bc16793fb22a328bfcc5a0ab86acef10d300d79c75f863a0
 Homepage: http://www.kernel.org/
 Description: Linux kernel, version 4.19.232-vaaman
  This package contains the Linux kernel, modules and corresponding other
@@ -175,6 +214,26 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: linux-libc-dev
+Architecture: arm64
+Version: 20231010-vaaman
+Priority: optional
+Section: devel
+Source: linux-4.19.232-vaaman
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 5748
+Provides: linux-kernel-headers
+Filename: pool/main/linux-libc-dev_20231010-vaaman_arm64.deb
+Size: 1082244
+MD5sum: 1022d0702ae66f8160a904e62333c6f2
+SHA1: 2d8557900d398b79598cae0ec01f893d9c4b43bf
+SHA256: cf5b950530cc23c8dc749376b6fcfb9f794419778506ce5bc0b9b1bbf79ec283
+SHA512: 8959585c7f505fd2b4c50f4d3f4455c826917b3b5655a1e52eb59a693a84ec925add99f1af30e2b1ce12675fb63ee16a5ab0ccb2ab90655fef2ea0e85ae2dfe9
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
 Package: u-boot-menu
 Architecture: all
 Version: 5.0.0
@@ -222,6 +281,65 @@ Description: A boot loader for the Vicharak Vaaman board.
  intended to be easy to port and to debug, and runs on many
  supported architectures, including PPC, ARM, MIPS, x86, m68k,
  NIOS, and Microblaze.
+
+Package: u-boot-rk3399-vaaman
+Architecture: arm64
+Version: 1.1.2
+Priority: optional
+Section: admin
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 8443
+Provides: u-boot-rk3399-vaaman
+Conflicts: u-boot-rk3399-vaaman
+Replaces: u-boot-rk3399-vaaman
+Filename: pool/main/u-boot-rk3399-vaaman_1.1.2_arm64.deb
+Size: 656420
+MD5sum: 34c0426c98e35cf34e3b37cf619241c9
+SHA1: 0813c849082287790a6e82c37d52fc98d1601301
+SHA256: 8aa76ddabe1ae86296bfea13edc2a1c33e17ef3ea7a8fbffe1891526ecfbc8b9
+SHA512: 851862468387a5143980a0d26123722854fe5fa866e33293ce048784baed99d523481428fe02f75c1da9caa426bdb702ad1aceec73bbd9e38d022dfab7341d15
+Description: A boot loader for the Vicharak Vaaman board.
+ Das U-Boot is a cross-platform bootloader for embedded systems,
+ used as the default boot loader by several board vendors.  It is
+ intended to be easy to port and to debug, and runs on many
+ supported architectures, including PPC, ARM, MIPS, x86, m68k,
+ NIOS, and Microblaze.
+
+Package: vicharak-config-first-boot
+Architecture: all
+Version: 0.0.6
+Priority: standard
+Section: admin
+Source: vicharak-config
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 17
+Depends: vicharak-config (= 0.0.6)
+Filename: pool/main/vicharak-config-first-boot_0.0.6_all.deb
+Size: 3296
+MD5sum: 0da4a5460ad02fc185f8052a72310afd
+SHA1: 56ae92cd9647679fd4473db2b4ca1a95b73e8a9b
+SHA256: e6335d015447d0e19b949c59ff9add4b124d415d02edf167e37a90fab06cdc81
+SHA512: 0990691409e08803456f29cb605d6077efe8a3c39a050bd8bea2bd4fe35aba8ec1830029a10fcbf62a8d690d6afcc528fac3ba7debdcc2be33a5e5ab9ec97b8a
+Description: Vicharak config - First boot configuration
+ This package contains the default first boot script.
+
+Package: vicharak-config-thermal-governor-step-wise
+Architecture: all
+Version: 0.0.6
+Priority: standard
+Section: admin
+Source: vicharak-config
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 14
+Depends: vicharak-config (= 0.0.6)
+Filename: pool/main/vicharak-config-thermal-governor-step-wise_0.0.6_all.deb
+Size: 2580
+MD5sum: 7d20e9aacb036a935bfa1b5fdf06857a
+SHA1: 1ced9c790b86d13c62acb13f65b17c58e4262edd
+SHA256: 10c81d34a89104f22e8c9aeaad55fa469920d8beb7a3064bd0a89780015e9c93
+SHA512: 1e4661a627a96789bf6eaca9a63fb9f66294a3f453e3966f6169218faedc85b748c229a84639017cbafb7bb666ab36ba15faef01302ea4e9605832af10a4baa8
+Description: Vicharak config - Set thermal_governor to step_wise
+ This package set thermal_governor to step_wise on boot.
 
 Package: vicharak-config
 Architecture: all

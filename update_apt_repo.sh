@@ -30,3 +30,9 @@ if [ -f dists/stable/InRelease ]; then
 	rm -f dists/stable/InRelease
 fi
 gpg --default-key vicharak --clear-sign --output dists/stable/InRelease dists/stable/Release
+
+# Check git status and commit automatically
+if [[ "$(git status --porcelain | wc -l)" -gt 0 ]]; then
+	git add -A
+	git commit -m "vicharak-apt: Update apt repo"
+fi
