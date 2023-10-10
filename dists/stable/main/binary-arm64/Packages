@@ -305,6 +305,20 @@ Description: A boot loader for the Vicharak Vaaman board.
  supported architectures, including PPC, ARM, MIPS, x86, m68k,
  NIOS, and Microblaze.
 
+Package: vaaman-remote-upload
+Architecture: arm64
+Version: 1.0.0
+Priority: optional
+Maintainer: Pratiksha <pratikshathanki2501@gmail.com>
+Installed-Size: 110619
+Filename: pool/main/vaaman-remote-upload_1.0.0_arm64.deb
+Size: 75537856
+MD5sum: 40e650dc6650d672f9c33fa95120f7a2
+SHA1: 14ad5bcfa37862121c4485d13374de9175b66dac
+SHA256: 4891bdb155695f0b8cb6a8411d379528b8543066e56eab7092248acb59455572
+SHA512: 48c57ae48532bfc09eb21c188ac7f268110d723ad68bd3faaefc50003764852c51955f5c09984aef875dab999c6ed69871caa954c53566ca1fbdd7a4701cb71b
+Description: vaaman remote upload package.
+
 Package: vicharak-config-first-boot
 Architecture: all
 Version: 0.0.6
