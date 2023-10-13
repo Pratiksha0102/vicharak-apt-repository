@@ -78,6 +78,26 @@ Description: Linux kernel headers for 4.19.232-vaaman on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-4.19.232-vaaman
+Architecture: arm64
+Version: 20231013-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 57779
+Filename: pool/main/linux-headers-4.19.232-vaaman_20231013-vaaman_arm64.deb
+Size: 8833172
+MD5sum: 38eb2098968496a724bb5218ede11017
+SHA1: 251eef5f66697ce0fb26111c78dc0c5408ff6d55
+SHA256: 6abb3440100cd61b7a7a32aa243d92bd264d899f210166ca9a60bd8827a5cee6
+SHA512: 50ee89008411b9328a07e699e939c06a675f4c8e4331e8a02950837548762768bd9ea4cea1947edec1243044fd6a14496ced52012bff91fcb9574c0fa19a4f85
+Homepage: http://www.kernel.org/
+Description: Linux kernel headers for 4.19.232-vaaman on arm64
+ This package provides kernel header files for 4.19.232-vaaman on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.232-vaaman
 Architecture: arm64
 Version: 20230818-vaaman
@@ -149,6 +169,25 @@ MD5sum: e530f64e663535ca3ebca85d50f60183
 SHA1: 26d14040bce7caa54f1939db1d0408cab58686e9
 SHA256: 7c13a69c88285cf3315cfdf2dab170cb511f8e8f8e7b960128921e30ffe0abf5
 SHA512: 568a19084bcce03a87d15e2487b22a6c2a80eec0255028f6559b3964f1e96cc85c98b540bc67b5b6bc16793fb22a328bfcc5a0ab86acef10d300d79c75f863a0
+Homepage: http://www.kernel.org/
+Description: Linux kernel, version 4.19.232-vaaman
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 4.19.232-vaaman.
+
+Package: linux-image-4.19.232-vaaman
+Architecture: arm64
+Version: 20231013-vaaman
+Priority: optional
+Section: kernel
+Source: linux-4.19.232-vaaman
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 49322
+Filename: pool/main/linux-image-4.19.232-vaaman_20231013-vaaman_arm64.deb
+Size: 11594536
+MD5sum: 0523392089bf9b2361755dd31b2181e5
+SHA1: bb48e9bf9a5590dc45c3a7ceabce2437c03850bb
+SHA256: 231fe18c0b6e07271208ca32fbf089a3285eb1fb21d1bca653e2f18c2461d02d
+SHA512: 4fa28ba41601ea809047cc780fc871965541b85cbd7e8463c67fd9639b327b4563184c22d40f310c62872fd2cc5b1b1d5e57e4c57f107e5711a58f5dd6b59cc2
 Homepage: http://www.kernel.org/
 Description: Linux kernel, version 4.19.232-vaaman
  This package contains the Linux kernel, modules and corresponding other
@@ -229,6 +268,26 @@ MD5sum: 1022d0702ae66f8160a904e62333c6f2
 SHA1: 2d8557900d398b79598cae0ec01f893d9c4b43bf
 SHA256: cf5b950530cc23c8dc749376b6fcfb9f794419778506ce5bc0b9b1bbf79ec283
 SHA512: 8959585c7f505fd2b4c50f4d3f4455c826917b3b5655a1e52eb59a693a84ec925add99f1af30e2b1ce12675fb63ee16a5ab0ccb2ab90655fef2ea0e85ae2dfe9
+Homepage: http://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
+Package: linux-libc-dev
+Architecture: arm64
+Version: 20231013-vaaman
+Priority: optional
+Section: devel
+Source: linux-4.19.232-vaaman
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 5748
+Provides: linux-kernel-headers
+Filename: pool/main/linux-libc-dev_20231013-vaaman_arm64.deb
+Size: 1082332
+MD5sum: accf64381cefee856a286e686ebb5d92
+SHA1: 0b20128da86a085194fa91ce04fa64de58079588
+SHA256: fc6dae888bf917c05c0e6061ba101d215d6667e02fe7b51ad69ac03c8b1fdc86
+SHA512: 8077780e32f20ef99a9f413e02daf416b39ffc6c94ebf626dcf08b212aa95befdf2c9e1f4e92a06ac00bbf5ba53d8f1850c98acdf036bcb8d993e637c9d113c6
 Homepage: http://www.kernel.org/
 Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
@@ -319,6 +378,20 @@ SHA256: 4891bdb155695f0b8cb6a8411d379528b8543066e56eab7092248acb59455572
 SHA512: 48c57ae48532bfc09eb21c188ac7f268110d723ad68bd3faaefc50003764852c51955f5c09984aef875dab999c6ed69871caa954c53566ca1fbdd7a4701cb71b
 Description: vaaman remote upload package.
 
+Package: vaaman-remote-upload
+Architecture: arm64
+Version: 1.0.1
+Priority: optional
+Maintainer: Pratiksha <pratikshathanki2501@gmail.com>
+Installed-Size: 48286
+Filename: pool/main/vaaman-remote-upload_1.0.1_arm64.deb
+Size: 13798396
+MD5sum: 3095e4946487c52cd1ee608f71891fd3
+SHA1: c9f2767035c19af89990bad831e998c0e9f52772
+SHA256: dbec11f0f3fac31875c1aba55c5ca0743d36ad5d47721fc0a37ef1014cecf3d3
+SHA512: fcc36085a6cf8ea05761b31e9704a11b83daec0683d3c944bc8ef0c1ed8663da58192abac233a2a1b3e75edc0088abd4ca36f481abbff56ea66d9786125958c9
+Description: vaaman remote upload package.
+
 Package: vicharak-config-first-boot
 Architecture: all
 Version: 0.0.6
@@ -337,6 +410,24 @@ SHA512: 0990691409e08803456f29cb605d6077efe8a3c39a050bd8bea2bd4fe35aba8ec1830029
 Description: Vicharak config - First boot configuration
  This package contains the default first boot script.
 
+Package: vicharak-config-first-boot
+Architecture: all
+Version: 0.0.7
+Priority: standard
+Section: admin
+Source: vicharak-config
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 17
+Depends: vicharak-config (= 0.0.7)
+Filename: pool/main/vicharak-config-first-boot_0.0.7_all.deb
+Size: 3516
+MD5sum: c6f2d7be4b4ba7bb9f325ecf2d1b34af
+SHA1: 9645ccf72843684a2cb0dd11d8257dfc0e4b7662
+SHA256: c57fa2f00b129bcd25ed816fbe0346b2713183cd1dab1d50fd5ddc248d71242c
+SHA512: 7d7f054a4028cde77a127bc9cc4652ea5df4dd11b04f72bf619434495142b7ebe974a39cdc196bf63aec831f9c393ed418e1c9222bde312fab959955099f3737
+Description: Vicharak config - First boot configuration
+ This package contains the default first boot script.
+
 Package: vicharak-config-thermal-governor-step-wise
 Architecture: all
 Version: 0.0.6
@@ -352,6 +443,24 @@ MD5sum: 7d20e9aacb036a935bfa1b5fdf06857a
 SHA1: 1ced9c790b86d13c62acb13f65b17c58e4262edd
 SHA256: 10c81d34a89104f22e8c9aeaad55fa469920d8beb7a3064bd0a89780015e9c93
 SHA512: 1e4661a627a96789bf6eaca9a63fb9f66294a3f453e3966f6169218faedc85b748c229a84639017cbafb7bb666ab36ba15faef01302ea4e9605832af10a4baa8
+Description: Vicharak config - Set thermal_governor to step_wise
+ This package set thermal_governor to step_wise on boot.
+
+Package: vicharak-config-thermal-governor-step-wise
+Architecture: all
+Version: 0.0.7
+Priority: standard
+Section: admin
+Source: vicharak-config
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 17
+Depends: vicharak-config (= 0.0.7)
+Filename: pool/main/vicharak-config-thermal-governor-step-wise_0.0.7_all.deb
+Size: 2940
+MD5sum: 100abf051d1041e9f16749a902390d86
+SHA1: 35dace54cfc412561bd91feb0805d5546abf4b53
+SHA256: 47d06e6091fe48343283c15df30812df8385e1ca72b59b1478c972bcc7692238
+SHA512: a217865d34044f36e2bebfbf2efc0f127ca929aca80438e00e384cd6062e336f5c218e99e402488c831ce158cda232ef9396be6baab40a7aa173df8c789058d2
 Description: Vicharak config - Set thermal_governor to step_wise
  This package set thermal_governor to step_wise on boot.
 
@@ -396,6 +505,27 @@ Description: Vicharak system setup utility
  system configuration tasks.
  It also provides an on-boot configuration service to allow customization.
 
+Package: vicharak-config
+Architecture: all
+Version: 0.0.7
+Priority: standard
+Section: admin
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 137
+Depends: device-tree-compiler, gdisk, parted, pkexec | policykit-1 (<< 122-1), whiptail
+Suggests: x-terminal-emulator
+Filename: pool/main/vicharak-config_0.0.7_all.deb
+Size: 21820
+MD5sum: d32814fd64142f90ba2e17e3bf700db5
+SHA1: 039c928702260e09080fb8aae9d24315717607d1
+SHA256: c84a4be9f07d138f0fe4092c2fdecd54a56397d052514e9e7a5723fb9c8e798e
+SHA512: fe4d3d16f8ba7cffd24e08b64cc713b6b11de8c92fedacfc331ca3a2752c4e04176f55d1d5234f002796756de58fdf85b78e311ba8e173695ab4961d935a0d67
+Description: Vicharak system setup utility
+ Vicharak system setup utility (vicharak-config) provides an
+ user friendly menu to perform many essential
+ system configuration tasks.
+ It also provides an on-boot configuration service to allow customization.
+
 Package: vicharak-firmware
 Architecture: all
 Version: 0.1.1
@@ -412,4 +542,21 @@ SHA512: f2d44b537c0b6ec1f3e23882c46d45ade6f57aa1964ec6b040baa16f9d2357c0db069375
 Description: Vicharak Custom Linux firmware
  This package contains firmwares that are not
  shipped by Debian.
+
+Package: vicharak-powermanagement
+Architecture: arm64
+Version: 1.0.0
+Priority: optional
+Section: utils
+Maintainer: Pratiksha <pratikshathanki2501@gmail.com>
+Installed-Size: 86
+Depends: libc6 (>= 2.17), libncursesw6 (>= 6), libtinfo6 (>= 6)
+Filename: pool/main/vicharak-powermanagement_1.0.0_arm64.deb
+Size: 12032
+MD5sum: 4d1dca7f829457fce029e0fc9be45631
+SHA1: f089237e38f063194a03887f939613bfd9f68624
+SHA256: a9277fe3c15de01797364482450825b0c6718ea12822472a09d35a5903b64c8a
+SHA512: 1a6f35566d51e5acd4d13766fe38c3af817a2a1160a8b904d0db940b3d07672354076d4d4ce917cc6ce49181b4a857c701c3d5e5df0c410131434f1a43064e55
+Description: Vicharak powermanagement tool is a TUI based power management tool.
+ It can be used to control CPU and GPU settings on Linux systems.
 
