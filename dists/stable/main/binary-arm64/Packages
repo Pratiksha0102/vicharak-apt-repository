@@ -98,6 +98,26 @@ Description: Linux kernel headers for 4.19.232-vaaman on arm64
  .
  This is useful for people who need to build external modules
 
+Package: linux-headers-5.10.160-vaaman
+Architecture: arm64
+Version: 20231129-vaaman
+Priority: optional
+Section: kernel
+Source: linux-5.10.160-vaaman
+Maintainer: root <root@galactos>
+Installed-Size: 47214
+Filename: pool/main/linux-headers-5.10.160-vaaman_20231129-vaaman_arm64.deb
+Size: 7692120
+MD5sum: d962de6d7118e6bfbdc9ac8c6c056859
+SHA1: d7276d9f09de66c330881fec2c75ed6cc0450229
+SHA256: f77d2054605a123c6aaeac6a1685521f2f98d41267fecb42f36a04bf3bbfd092
+SHA512: f8aaaf35c65ad1e6d416c8b17cd2c9db7c3e4cad60002c091d03fbaec127a2dfb68dc3372775d1cc2874186767b974e7852d0dd2e5515afeac197a6976cfbbd6
+Homepage: https://www.kernel.org/
+Description: Linux kernel headers for 5.10.160-vaaman on arm64
+ This package provides kernel header files for 5.10.160-vaaman on arm64
+ .
+ This is useful for people who need to build external modules
+
 Package: linux-image-4.19.232-vaaman
 Architecture: arm64
 Version: 20230818-vaaman
@@ -192,6 +212,25 @@ Homepage: http://www.kernel.org/
 Description: Linux kernel, version 4.19.232-vaaman
  This package contains the Linux kernel, modules and corresponding other
  files, version: 4.19.232-vaaman.
+
+Package: linux-image-5.10.160-vaaman
+Architecture: arm64
+Version: 20231129-vaaman
+Priority: optional
+Section: kernel
+Source: linux-5.10.160-vaaman
+Maintainer: root <root@galactos>
+Installed-Size: 64290
+Filename: pool/main/linux-image-5.10.160-vaaman_20231129-vaaman_arm64.deb
+Size: 14418476
+MD5sum: 333851d1a5b50304f12f4b27815c7cc8
+SHA1: 139e42d8cabf17563aec8b6f3d3d6d5d01dab3e4
+SHA256: 8331d5f76b0a6d3a289a33ea46a270d308aca3a7606a790a5475b848b5ccad66
+SHA512: ff5879b60a1d1d2868ade5ab66a8fafcc5617d7efde27380267cb204ee287595b1c3b8513d958c7330795d3102dfb0a72ee991e413ee7bed3cf0900aa7334ce7
+Homepage: https://www.kernel.org/
+Description: Linux kernel, version 5.10.160-vaaman
+ This package contains the Linux kernel, modules and corresponding other
+ files, version: 5.10.160-vaaman.
 
 Package: linux-libc-dev
 Architecture: arm64
@@ -293,6 +332,27 @@ Description: Linux support headers for userspace development
  This package provides userspaces headers from the Linux kernel.  These headers
  are used by the installed headers for GNU glibc and other system libraries.
 
+Package: linux-libc-dev
+Architecture: arm64
+Version: 20231129-vaaman
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: linux-5.10.160-vaaman
+Maintainer: root <root@galactos>
+Installed-Size: 6309
+Provides: linux-kernel-headers
+Filename: pool/main/linux-libc-dev_20231129-vaaman_arm64.deb
+Size: 1197932
+MD5sum: f1691eeaea288b2dddab0662fc1bd287
+SHA1: 3164f5b2f30a3e55e4bd77b289a91a7031958a8c
+SHA256: 4c18336f0140c1b48967b846f845d4671e759a57cb491fe0a1dfd78da3374404
+SHA512: af0532610c03168852b1fb0caddf9434ffc97a1027582c121281e0f24056e0d36408e64ee4ae58beb1f58c11477c15ef5ac910e058b390192d20cabbb2f6f2f9
+Homepage: https://www.kernel.org/
+Description: Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+
 Package: u-boot-menu
 Architecture: all
 Version: 5.0.0
@@ -364,6 +424,29 @@ Description: A boot loader for the Vicharak Vaaman board.
  supported architectures, including PPC, ARM, MIPS, x86, m68k,
  NIOS, and Microblaze.
 
+Package: u-boot-rk3399-vaaman
+Architecture: arm64
+Version: 1.1.5
+Priority: optional
+Section: admin
+Maintainer: UtsavBalar1231 <utsavbalar1231@gmail.com>
+Installed-Size: 8444
+Provides: u-boot-rk3399-vaaman
+Conflicts: u-boot-rk3399-vaaman
+Replaces: u-boot-rk3399-vaaman
+Filename: pool/main/u-boot-rk3399-vaaman_1.1.5_arm64.deb
+Size: 656976
+MD5sum: 4fbb3e9d42c54213f3c8b8f59851f1ac
+SHA1: c136b8c05621bb98c529b5cd00d9c7d22b45ccc3
+SHA256: 5de94bf46f5ac8b611cdd4644bc314362ffb106309ff0428f84a0ce20ddd6904
+SHA512: 76e0c7a1e360cc755ad14a6b7b9d3ef85c34fa44d0f6036df52f36b8c5233c7d2c5ebf2bc941e11c821e3e043599c6611225febd15f74188bf3643213dee8f15
+Description: A boot loader for the Vicharak Vaaman board.
+ Das U-Boot is a cross-platform bootloader for embedded systems,
+ used as the default boot loader by several board vendors.  It is
+ intended to be easy to port and to debug, and runs on many
+ supported architectures, including PPC, ARM, MIPS, x86, m68k,
+ NIOS, and Microblaze.
+
 Package: vaaman-remote-upload
 Architecture: arm64
 Version: 1.0.0
@@ -428,6 +511,24 @@ SHA512: 7d7f054a4028cde77a127bc9cc4652ea5df4dd11b04f72bf619434495142b7ebe974a39c
 Description: Vicharak config - First boot configuration
  This package contains the default first boot script.
 
+Package: vicharak-config-first-boot
+Architecture: all
+Version: 0.1.0
+Priority: standard
+Section: admin
+Source: vicharak-config
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 18
+Depends: vicharak-config (= 0.1.0)
+Filename: pool/main/vicharak-config-first-boot_0.1.0_all.deb
+Size: 4100
+MD5sum: 0a9635b06b31596fa9e5efb7da53111d
+SHA1: 2ead0493d5ffb7f9e637f0e6a41f1041b61a82d2
+SHA256: 6adb89062f683a57877962004cc72c7a5e7acf60c54f5c38efcfb0580224b232
+SHA512: 243b08328f5ed5776efa396482821a15dd069ffb85c34a824a9859c3e8ab3cc56dc184bb0ee726f61e2543cc23ff30a78d18306e4ff6f5b35a75bb26dd2326b5
+Description: Vicharak config - First boot configuration
+ This package contains the default first boot script.
+
 Package: vicharak-config-thermal-governor-step-wise
 Architecture: all
 Version: 0.0.6
@@ -461,6 +562,24 @@ MD5sum: 100abf051d1041e9f16749a902390d86
 SHA1: 35dace54cfc412561bd91feb0805d5546abf4b53
 SHA256: 47d06e6091fe48343283c15df30812df8385e1ca72b59b1478c972bcc7692238
 SHA512: a217865d34044f36e2bebfbf2efc0f127ca929aca80438e00e384cd6062e336f5c218e99e402488c831ce158cda232ef9396be6baab40a7aa173df8c789058d2
+Description: Vicharak config - Set thermal_governor to step_wise
+ This package set thermal_governor to step_wise on boot.
+
+Package: vicharak-config-thermal-governor-step-wise
+Architecture: all
+Version: 0.1.0
+Priority: standard
+Section: admin
+Source: vicharak-config
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 18
+Depends: vicharak-config (= 0.1.0)
+Filename: pool/main/vicharak-config-thermal-governor-step-wise_0.1.0_all.deb
+Size: 3508
+MD5sum: 84313422e471cece499f5de4de4e6d5a
+SHA1: d30d685b87671ec5cb0f7df268a31442cb252832
+SHA256: ccdae5945851d56bef963abaa8ae4831c0187575b0f5fe2f1878e6a0a814986d
+SHA512: 50a7f8c761333bf7c2c7bf36dceebb7fc1727372b61cb6f66b81cfc6820e36a594dbf304609d55c5b211ac74c4207c5eb7f6fd5eebce34266fb7da5706c93e24
 Description: Vicharak config - Set thermal_governor to step_wise
  This package set thermal_governor to step_wise on boot.
 
@@ -526,6 +645,27 @@ Description: Vicharak system setup utility
  system configuration tasks.
  It also provides an on-boot configuration service to allow customization.
 
+Package: vicharak-config
+Architecture: all
+Version: 0.1.0
+Priority: standard
+Section: admin
+Maintainer: "Vicharak Computers LLP" <utsavbalar1231@gmail.com>
+Installed-Size: 158
+Depends: device-tree-compiler, gdisk, parted, pkexec | policykit-1 (<< 122-1), whiptail
+Suggests: x-terminal-emulator
+Filename: pool/main/vicharak-config_0.1.0_all.deb
+Size: 24584
+MD5sum: cf086f6bd699efdacedcfd437a7597dc
+SHA1: 3c6dc5caebf8b36f819882850dbff58890a9540e
+SHA256: 2efc06277b8dd0469c7e1994f7d575fa72183b30a60a8cf50f32bd8e3318a45d
+SHA512: 1c576970b698bf819538aaf1770281280315c666591b48f4b8df9abb703f49a21fde5c8f784b5f16fdd3cfeb9eba0a9b36d4cfdb7636893719a1eae472b0f17d
+Description: Vicharak system setup utility
+ Vicharak system setup utility (vicharak-config) provides an
+ user friendly menu to perform many essential
+ system configuration tasks.
+ It also provides an on-boot configuration service to allow customization.
+
 Package: vicharak-firmware
 Architecture: all
 Version: 0.1.1
@@ -539,6 +679,23 @@ MD5sum: 80e87dfd31a67403fe296f99a5556742
 SHA1: 48a3c5a47ec5b7a8e36ee36e3f7adec666ce9552
 SHA256: 92f1d897969a8e2b68c1f60c97b66314e4e5b390b0c2fa902e43719dc97312ba
 SHA512: f2d44b537c0b6ec1f3e23882c46d45ade6f57aa1964ec6b040baa16f9d2357c0db069375b23b8654c50d5162856f9b46494783eaf030fcc87325d1f5b6742256
+Description: Vicharak Custom Linux firmware
+ This package contains firmwares that are not
+ shipped by Debian.
+
+Package: vicharak-firmware
+Architecture: all
+Version: 0.1.2
+Priority: optional
+Section: misc
+Maintainer: "UtsavBalar1231" <utsavbalar1231@gmail.com>
+Installed-Size: 2854
+Filename: pool/main/vicharak-firmware_0.1.2_all.deb
+Size: 446104
+MD5sum: b2a75df423e7961587b9e7d36f11f7dc
+SHA1: 7bd75ec8323d5b865d3c22a4fab8b99b1e17b0bf
+SHA256: cd72e8704ba1db29efcde43209eeafc44fdc3ca9c9e20ea0011282ca6d911c82
+SHA512: 938f648c1a64dd2b28b46fb50f673b07c7653d6c74465685b1878f00433f1eb60be35b24e6f5c71791fe4a980a30dc82937cf6e382251666c8053fb99b7ef6fa
 Description: Vicharak Custom Linux firmware
  This package contains firmwares that are not
  shipped by Debian.
