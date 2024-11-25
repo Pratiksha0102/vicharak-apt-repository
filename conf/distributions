@@ -1,0 +1,30 @@
+# General Stable Distribution
+Origin: vicharak apt 
+Label: vicharak-apt
+Suite: stable
+Codename: stable
+Architectures: arm64
+Components: main
+Description: APT repository for Vicharak (shared)
+SignWith: 46FBDD0EFE07B0CA2C4FB665C0424809CDBEBA59
+
+# Axon Specific Distribution
+Origin: vicharak apt
+Label: vicharak-apt-axon
+Suite: stable
+Codename: stable-axon
+Architectures: arm64
+Components: axon
+Description: APT repository for Axon specific packages
+SignWith: 46FBDD0EFE07B0CA2C4FB665C0424809CDBEBA59
+
+# Vaaman Specific Distribution
+Origin: vicharak apt
+Label: vicharak-apt-vaaman
+Suite: stable
+Codename: stable-vaaman
+Architectures: arm64
+Components: vaaman
+Description: APT repository for Vaaman specific packages
+SignWith: 46FBDD0EFE07B0CA2C4FB665C0424809CDBEBA59
+

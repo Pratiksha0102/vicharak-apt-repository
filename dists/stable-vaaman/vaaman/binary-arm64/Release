@@ -1,0 +1,6 @@
+Archive: stable
+Component: vaaman
+Origin: Vicharak apt
+Label: vicharak-apt-vaaman
+Architecture: arm64
+Description: APT repository for Vaaman specific packages

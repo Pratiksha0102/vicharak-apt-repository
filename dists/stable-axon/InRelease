@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: vicharak apt
+Label: vicharak-apt-axon
+Suite: stable
+Codename: stable-axon
+Date: Mon, 25 Nov 2024 06:57:04 UTC
+Architectures: arm64
+Components: axon
+Description: APT repository for Axon specific packages
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 axon/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 axon/binary-arm64/Packages.gz
+ 2c0580b26764acb755891c651f743821 153 axon/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 axon/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 axon/binary-arm64/Packages.gz
+ 666c78cc9e125416aee134ee5c8ebb5c0d498c48 153 axon/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 axon/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 axon/binary-arm64/Packages.gz
+ 2a687f1be49f9280869728273d8bd79e0e443d820673915e46cd2b8320d656c0 153 axon/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEERvvdDv4HsMosT7ZlwEJICc2+ulkFAmdEH8AACgkQwEJICc2+
+ullrzA/+ONw79k+zpIJTLyHbWf9zuIi6nG+EO7D0/soZXM2FeeqD3bfmMjbVPAlD
+CB7eyPgaj9Evt+P1tIxXq4sO0tgd7AZcB3R/2bJ+zWN7pfEWPGG7jW/rb36ozg8p
+XgO8ROJ3IJK8OniXtcnDnY3DIFHaye/9JpbLd/2Aal0qOOYakfqMROSp5Z1GUtaw
+7VPD+SPPerutlgIm/GD7Sy0/hA9dBXOYc4/pI/882hZJdp3kr1wdKSj4TsimcKFf
+5QQXwOxWIATOfHZZyyJ4/HAwXM3o5dtSSCy+tORX1l3ea7jcjfyzT6Ob69DoyA6p
+cb3Ax6C1RSQDdPdsC921Tusog01l9JaJSBdB17ubD+h2DIl3rDMQG+OlnDzzUMqb
+9yRqJDbOGmCXEyCPld5i9XOlYKsX/7aGCqPIAyCUhU7Gq8LYXlT9ORlNJ2gdaO7a
+K1bPa22KSqVCvi9dxDp+/SmGq/ztvhJj0gYRQQrV3FZRsg4gVor/IXo43c67n8pO
+ncaI+1E7MuKuOn1CU0zhctE464wreP+KQGSqJVfuJCA5Pkq/9U9NFPmCg0WtmJLW
+tW7zwxKfU8iutYNEeCsrZDdMcpIT8BXJ9BI7eSsh856PlXloPnsWcAZ9z/zrhCRY
+liuQYRq7Kq/b6odtsv0gom8tZPIz3U1hKeWu70r+XjsnSOwZhyU=
+=H9LU
+-----END PGP SIGNATURE-----

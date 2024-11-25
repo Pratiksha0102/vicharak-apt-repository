@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: vicharak apt
+Label: vicharak-apt-vaaman
+Suite: stable
+Codename: stable-vaaman
+Date: Mon, 25 Nov 2024 06:59:15 UTC
+Architectures: arm64
+Components: vaaman
+Description: APT repository for Vaaman specific packages
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 vaaman/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 vaaman/binary-arm64/Packages.gz
+ 38935e24cc9a3f7715bf0c9267a84eb4 159 vaaman/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 vaaman/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 vaaman/binary-arm64/Packages.gz
+ 824ea373904b07f5f10820d3eccddf543a7a8825 159 vaaman/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 vaaman/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 vaaman/binary-arm64/Packages.gz
+ 3ffee0b19a5e36932b776f2fc1db32d763176d874d79f5c45c0134546ee95b63 159 vaaman/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEERvvdDv4HsMosT7ZlwEJICc2+ulkFAmdEIEQACgkQwEJICc2+
+ulk/Lg//UXzGy402ttK16nqV0gA31SGCYlsNISAMvm/4ABEeILzhNDZ6ZHGyV4OH
+3nLw37nRBeJutKqzUSrv6eZTZbaQSOISxcqyYPw/9eLbqDhGzEELFJaZJtJXhFSd
+8690cwtVMCrb8ZocB4DZhsjLz9ZC9mrnGGZD7snOM35SoNO0xc48j3MP4ht1L1QA
+jlUNqkwEwNND2LwjHewLt4EW7brlXDHeVNKMRkKCTFs7wCYkpYGHvloYOIgCJRGs
+4JTQV442kz0S6gFMDeWFsAL61Yk4GxXnuUqOBaimrLiYwk2R86sp7Lm52ujAUrEV
+nQfeMOoPOVaZ1ghmVzivYZqEh/ioPgCo0keIpMI2Ngs4ZzcJQOH7/VPj6zft4oqv
+PCt0BnoZKboj/iTDwCMprzes2UkOqhhzc/8wi9IHOZzA03b9OkPNLHuideN2sp82
+x++9sKCC3EEOx1MyI9RZNtog4lmouBabWNF0fGfyf/W25s3kfK5FiBaj5zs1bhCa
+yo5CRNfkp5i/Kisu/c75qAcrLuZJtkMX7bXxiPfrK2B9zrzzpUNX3/xk++Up3U5S
+YzbfbnnOVCY3WaOOJdPlajf4gBQBLgugYStGJlvlgDVOC2MZtE4JbTjshwYQEsaw
+aGeUDPfGkwqOEfCptsRMRqudI61cYTLHtPLO9axiIwV95YvCB7s=
+=eewL
+-----END PGP SIGNATURE-----

@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: Vicharak apt
+Label: vicharak-apt
+Architecture: arm64
+Description: APT repository for Vicharak (shared)
